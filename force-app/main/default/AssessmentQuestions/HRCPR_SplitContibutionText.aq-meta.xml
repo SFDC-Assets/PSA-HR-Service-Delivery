@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_SplitContibutionText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>If you have been separated, divorced or in a common-law relationship that ended, the contributions that you and your former spouse or a common-law partner made to the CPP during the time you lived together could be combined and equally divided.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRCPR_SplitContibutionText</developerName>
+    <name>HRCPR_SplitContibutionText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

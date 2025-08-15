@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREEC_Allergies_Food_Medication_Insects_Etc</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Allergies (Food, Medication, Insects, Etc.):</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HREEC_Allergies_Food_Medication_Insects_Etc</developerName>
+    <name>HREEC_Allergies_Food_Medication_Insects_Etc</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

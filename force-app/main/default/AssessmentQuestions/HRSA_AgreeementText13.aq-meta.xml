@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSA_AgreeementText13</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>(2) Use of Trade Secret Information in Anti-Retaliation Lawsuit—An individual who files a lawsuit
+for retaliation by an employer for reporting a suspected violation of law may disclose the trade
+secret to the attorney of the individual and use the trade secret information in the court
+proceeding, if the individual (A) files any document containing the trade secret under seal and
+(B) does not disclose the trade secret, except pursuant to court order.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSA_AgreeementText13</developerName>
+    <name>HRSA_AgreeementText13</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

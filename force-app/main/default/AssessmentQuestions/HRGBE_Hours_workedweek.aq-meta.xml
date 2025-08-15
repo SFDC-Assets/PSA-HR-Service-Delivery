@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGBE_Hours_workedweek</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Hours worked/week</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Integer</dataType>
+    <developerName>HRGBE_Hours_workedweek</developerName>
+    <name>HRGBE_Hours_workedweek</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

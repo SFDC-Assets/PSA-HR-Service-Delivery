@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_PrivacyText4</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>The Tri-agency Institutional Programs Secretariat (TIPS) also shares aggregated self-identification data
+with host institutions to allow them to monitor their efforts in meeting their equity targets for the
+Canada Research Chairs Program. While TIPS never sharesself-identification data specific to an
+individual, it is possible that some institutions may be able to identify some individuals&apos; personal
+information when the aggregated data shared isfor fewer than five chairholders. TIPS shares data
+with only one key administrative contact per institution, identified by the institution as having the
+authority to receive the data, under very strict confidentiality requirements. No data on sexual
+orientation nor the subcategories of visible minority group and persons with disabilities is shared with
+institutions.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HREESI_PrivacyText4</developerName>
+    <name>HREESI_PrivacyText4</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

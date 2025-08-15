@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSA_AgreeementText11</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>&lt;b&gt;Immunity from Liability for Confidential Disclosure of a Trade Secret to the Government
+or in a Court Filing:&lt;/b&gt;</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSA_AgreeementText11</developerName>
+    <name>HRSA_AgreeementText11</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_IndigenousGroups</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>4b. Select the group(s) that you identify with.</questionText>
+        <responseValues>First Nations
+Inuit
+Métis
+I prefer not to answer</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Multiselect</dataType>
+    <developerName>HREESI_IndigenousGroups</developerName>
+    <name>HREESI_IndigenousGroups</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

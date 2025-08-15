@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_DisabilityType</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>7b. Select the type(s) of disability that applies to you.</questionText>
+        <responseValues>Communications
+Developmental
+Dexterity
+Flexibility
+Hearing
+Learning
+Memory
+Mental-health related
+Mobility
+Pain-related
+Seeing|Disability not listed above.
+I prefer not to answer</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Multiselect</dataType>
+    <developerName>HREESI_DisabilityType</developerName>
+    <name>HREESI_DisabilityType</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

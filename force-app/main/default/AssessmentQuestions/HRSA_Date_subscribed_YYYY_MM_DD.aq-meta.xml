@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSA_Date_subscribed_YYYY_MM_DD</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Date subscribed (YYYY-MM-DD) (cannot be later than the first day of work)</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Date</dataType>
+    <developerName>HRSA_Date_subscribed_YYYY_MM_DD</developerName>
+    <name>HRSA_Date_subscribed_YYYY_MM_DD</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

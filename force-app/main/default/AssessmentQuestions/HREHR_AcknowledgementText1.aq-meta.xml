@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREHR_AcknowledgementText1</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>The employee handbook describes important information about [Company Name], and I
+understand that I should consult human resources regarding any questions not answered in the
+handbook. I have entered into my employment relationship with [Company Name] voluntarily
+and acknowledge that there is no specified length of employment. Accordingly, either I or
+[Company Name] can terminate the relationship at will, with or without cause, at any
+time, so long as there is not violation of applicable federal or state law.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HREHR_AcknowledgementText1</developerName>
+    <name>HREHR_AcknowledgementText1</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

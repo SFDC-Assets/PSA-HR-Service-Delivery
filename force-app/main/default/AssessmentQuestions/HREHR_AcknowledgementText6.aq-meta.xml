@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREHR_AcknowledgementText6</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>I have received the handbook, and I understand that it is my responsibility to read and comply
+with the policies contained in this handbook and any revisions made to it.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HREHR_AcknowledgementText6</developerName>
+    <name>HREHR_AcknowledgementText6</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

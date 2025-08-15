@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_Physicians_health_care_professionals_speciality</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Physician&apos;s / health care professional&apos;s speciality</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRSTDC_Physicians_health_care_professionals_speciality</developerName>
+    <name>HRSTDC_Physicians_health_care_professionals_speciality</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

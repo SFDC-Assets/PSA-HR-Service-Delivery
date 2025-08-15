@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_ChildhoodLanguage</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>8a. What language(s) did you first learn at home in childhood and still understand?</questionText>
+        <responseValues>English
+French
+Another language
+I prefer not to answer</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Multiselect</dataType>
+    <developerName>HREESI_ChildhoodLanguage</developerName>
+    <name>HREESI_ChildhoodLanguage</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

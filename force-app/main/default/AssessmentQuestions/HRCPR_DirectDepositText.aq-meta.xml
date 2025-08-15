@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_DirectDepositText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Service Canada will make your pension payment to your bank account using direct deposit.  The account must be in your name.  A joint account is also acceptable.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRCPR_DirectDepositText</developerName>
+    <name>HRCPR_DirectDepositText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

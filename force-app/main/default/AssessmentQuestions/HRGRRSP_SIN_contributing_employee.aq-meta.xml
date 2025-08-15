@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGRRSP_SIN_contributing_employee</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>SIN</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Integer</dataType>
+    <developerName>HRGRRSP_SIN_contributing_employee</developerName>
+    <name>HRGRRSP_SIN_contributing_employee</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

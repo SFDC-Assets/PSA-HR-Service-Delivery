@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_PrivacyText1</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>The purpose of the self-identification form is to collect information so the agencies can monitor the
+equity performance of programs and design new measures that achieve greater equity, diversity and
+inclusion in the research enterprise. The Canada Research Chairs Program also uses the data to help
+institutions meet their equity and diversity targets.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HREESI_PrivacyText1</developerName>
+    <name>HREESI_PrivacyText1</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

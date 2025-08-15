@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRPAS_AreasForImprovement</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>5. Describe areas you feel require improvement in terms of your professional capabilities. List the steps you plan to take and/or the resources you need to accomplish this.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRPAS_AreasForImprovement</developerName>
+    <name>HRPAS_AreasForImprovement</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

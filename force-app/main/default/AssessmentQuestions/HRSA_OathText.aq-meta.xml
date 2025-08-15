@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSA_OathText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Swear (or solemnly affirm) that I will faithfully and honestly fulfill the duties that devolve on me by reason of my employment in the public service of Canada and that I will not, without due authority, disclose or make known any matter that comes to my knowledge by reason of such employment.  (If you are subscribing under Oath, also say &quot;So help me God&quot; o other name of deity).</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSA_OathText</developerName>
+    <name>HRSA_OathText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

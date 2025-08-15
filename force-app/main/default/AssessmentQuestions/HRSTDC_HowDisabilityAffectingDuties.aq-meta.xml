@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_HowDisabilityAffectingDuties</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Describe how your illness / injury is affecting your abilities</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRSTDC_HowDisabilityAffectingDuties</developerName>
+    <name>HRSTDC_HowDisabilityAffectingDuties</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

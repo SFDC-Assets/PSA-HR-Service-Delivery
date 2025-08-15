@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREHCC_Use_your_Health_Care_Spending_Account</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Check here to use your Health Care Spending Account (HCSA) to reimburse any unpaid portion of this claim.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Checkbox</dataType>
+    <developerName>HREHCC_Use_your_Health_Care_Spending_Account</developerName>
+    <name>HREHCC_Use_your_Health_Care_Spending_Account</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

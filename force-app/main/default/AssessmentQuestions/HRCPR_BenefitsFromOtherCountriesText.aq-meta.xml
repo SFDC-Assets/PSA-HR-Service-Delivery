@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_BenefitsFromOtherCountriesText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>&lt;b&gt;Benefits from other countries&lt;/b&gt;&lt;br&gt;If you have lived or worked in a country other than Canada, you could qualify for benefits from that country.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRCPR_BenefitsFromOtherCountriesText</developerName>
+    <name>HRCPR_BenefitsFromOtherCountriesText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

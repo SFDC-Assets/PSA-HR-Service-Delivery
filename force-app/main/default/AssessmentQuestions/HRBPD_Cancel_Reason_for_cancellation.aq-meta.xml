@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRBPD_Cancel_Reason_for_cancellation</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Reason for cancellation</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRBPD_Cancel_Reason_for_cancellation</developerName>
+    <name>HRBPD_Cancel_Reason_for_cancellation</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

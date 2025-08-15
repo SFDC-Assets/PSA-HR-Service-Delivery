@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_Expected_return_to_work</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Expected return to work</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Date</dataType>
+    <developerName>HRSTDC_Expected_return_to_work</developerName>
+    <name>HRSTDC_Expected_return_to_work</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

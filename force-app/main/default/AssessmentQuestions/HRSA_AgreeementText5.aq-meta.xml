@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSA_AgreeementText5</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>C. Employee will not reproduce the Confidential Information nor use this information
+commercially or for any purpose other than the performance of his/her duties for
+[Company Name].</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSA_AgreeementText5</developerName>
+    <name>HRSA_AgreeementText5</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

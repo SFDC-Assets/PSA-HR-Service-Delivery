@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREEC_Medical_Alerts</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Medical Alert(s):</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HREEC_Medical_Alerts</developerName>
+    <name>HREEC_Medical_Alerts</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

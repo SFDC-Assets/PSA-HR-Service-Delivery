@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRPAS_Leadership_Skills</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>o. Leadership Skills (applies to anyone—not restricted to supervisory level employees)</questionText>
+        <responseValues>4 - Outstanding/Role Model
+3 - Very Competent
+2 - Satisfactory
+1 - Inexperienced or Improvement Needed</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HRPAS_Leadership_Skills</developerName>
+    <name>HRPAS_Leadership_Skills</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGBE_SpouseFirst_name</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>First name:</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRGBE_SpouseFirst_name</developerName>
+    <name>HRGBE_SpouseFirst_name</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_PrivacyText2</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>The personal information is collected under the respective authority of section 4(2)(a) of the Natural
+Sciences and Engineering Research Council Act, section 4(2)(a) of the Social Sciences and Humanities
+Research Council Act, or sections 4, 5 and 26 of the Canadian Institutes of Health Research Act,
+depending on the program.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HREESI_PrivacyText2</developerName>
+    <name>HREESI_PrivacyText2</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

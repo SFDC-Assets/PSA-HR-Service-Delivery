@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_HowLongSimilarCondition</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>How long ago?</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRSTDC_HowLongSimilarCondition</developerName>
+    <name>HRSTDC_HowLongSimilarCondition</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

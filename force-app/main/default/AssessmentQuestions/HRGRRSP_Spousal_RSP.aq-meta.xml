@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGRRSP_Spousal_RSP</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Spousal RSP – you are the owner and your spouse/commonlaw partner is the person contributing to the plan.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Checkbox</dataType>
+    <developerName>HRGRRSP_Spousal_RSP</developerName>
+    <name>HRGRRSP_Spousal_RSP</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

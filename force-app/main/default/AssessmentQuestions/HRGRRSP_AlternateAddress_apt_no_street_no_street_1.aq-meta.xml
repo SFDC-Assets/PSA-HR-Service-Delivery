@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGRRSP_AlternateAddress_apt_no_street_no_street_1</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Address (apt. no., street no., street)</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRGRRSP_AlternateAddress_apt_no_street_no_street_1</developerName>
+    <name>HRGRRSP_AlternateAddress_apt_no_street_no_street_1</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

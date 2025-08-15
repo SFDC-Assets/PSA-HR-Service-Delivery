@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSA_AgreeementText2</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Accordingly, to protect the Confidential Information that will be disclosed during employment, the
+Employee agrees as follows:</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSA_AgreeementText2</developerName>
+    <name>HRSA_AgreeementText2</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

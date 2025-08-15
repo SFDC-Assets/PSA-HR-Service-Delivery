@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGBE_OtherPlansName_of_other_insurer</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Name of other insurer</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRGBE_OtherPlansName_of_other_insurer</developerName>
+    <name>HRGBE_OtherPlansName_of_other_insurer</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

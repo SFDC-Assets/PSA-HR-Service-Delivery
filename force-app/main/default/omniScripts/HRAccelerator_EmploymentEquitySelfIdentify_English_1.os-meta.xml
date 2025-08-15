@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniScript xmlns="http://soap.sforce.com/2006/04/metadata">
+    <designerCustomizationType>Discovery Framework</designerCustomizationType>
+    <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+    <elementTypeComponentMapping>{&quot;ElementTypeToHTMLTemplateList&quot;:[]}</elementTypeComponentMapping>
+    <isActive>true</isActive>
+    <isIntegrationProcedure>false</isIntegrationProcedure>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
+    <isOmniScriptEmbeddable>true</isOmniScriptEmbeddable>
+    <isTestProcedure>false</isTestProcedure>
+    <isWebCompEnabled>true</isWebCompEnabled>
+    <language>English</language>
+    <name>HRAccelerator EmploymentEquitySelfIdentify</name>
+    <omniProcessElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_ChildhoodLanguage</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;8a. What language(s) did you first learn at home in childhood and still understand?&quot;,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;horizontalMode&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;English&quot;,
+    &quot;developerName&quot; : &quot;English&quot;,
+    &quot;value&quot; : &quot;English&quot;
+  }, {
+    &quot;name&quot; : &quot;French&quot;,
+    &quot;developerName&quot; : &quot;French&quot;,
+    &quot;value&quot; : &quot;French&quot;
+  }, {
+    &quot;name&quot; : &quot;Another language&quot;,
+    &quot;developerName&quot; : &quot;Another language&quot;,
+    &quot;value&quot; : &quot;Another language&quot;
+  }, {
+    &quot;name&quot; : &quot;I prefer not to answer&quot;,
+    &quot;developerName&quot; : &quot;I prefer not to answer&quot;,
+    &quot;value&quot; : &quot;I prefer not to answer&quot;
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;optionWidth&quot; : 100.0,
+  &quot;optionHeight&quot; : 100.0,
+  &quot;imageCountInRow&quot; : 3.0,
+  &quot;enableCaption&quot; : true,
+  &quot;disOnTplt&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>13.0</sequenceNumber>
+            <type>Multi-select</type>
+            <uniqueIndex>HREESI_ChildhoodLanguage</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_Comments</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Comments or suggestions about the self-identification questionnaire &quot;
+}</propertySetConfig>
+            <sequenceNumber>11.0</sequenceNumber>
+            <type>Text</type>
+            <uniqueIndex>HREESI_Comments</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_Date_Of_Birth</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;1. What is your date of birth? &quot;,
+  &quot;dateType&quot; : &quot;string&quot;,
+  &quot;modelDateFormat&quot; : &quot;yyyy-MM-dd&quot;,
+  &quot;dateFormat&quot; : &quot;MM-dd-yyyy&quot;,
+  &quot;minDate&quot; : &quot;&quot;,
+  &quot;maxDate&quot; : &quot;&quot;
+}</propertySetConfig>
+            <sequenceNumber>0.0</sequenceNumber>
+            <type>Date</type>
+            <uniqueIndex>HREESI_Date_Of_Birth</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_Disability</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;7a. Do you identify as a person with a disability as described in the Act? &quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Yes&quot;,
+    &quot;value&quot; : &quot;Yes&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;No&quot;,
+    &quot;value&quot; : &quot;No&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;I prefer not to answer&quot;,
+    &quot;value&quot; : &quot;I prefer not to answer&quot;,
+    &quot;setAll&quot; : false
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;required&quot; : true
+}</propertySetConfig>
+            <sequenceNumber>9.0</sequenceNumber>
+            <type>Radio</type>
+            <uniqueIndex>HREESI_Disability</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_DisabilityText</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;The Accessible Canada Act defines disability as “any impairment, including a physical, mental, intellectual, cognitive, learning, communication or sensory impairment—or a functional limitation—whether permanent, temporary or episodic in nature, or evident or not, that, in interaction with a barrier, hinders a person’s full and equal participation in society.”&quot;,
+  &quot;text&quot; : &quot;The Accessible Canada Act defines disability as “any impairment, including a physical, mental, intellectual, cognitive, learning, communication or sensory impairment—or a functional limitation—whether permanent, temporary or episodic in nature, or evident or not, that, in interaction with a barrier, hinders a person’s full and equal participation in society.”&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>10.0</sequenceNumber>
+            <type>Text Block</type>
+            <uniqueIndex>HREESI_DisabilityText</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_DisabilityType</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;7b. Select the type(s) of disability that applies to you.&quot;,
+  &quot;required&quot; : true,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;horizontalMode&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Communications&quot;,
+    &quot;developerName&quot; : &quot;Communications&quot;,
+    &quot;value&quot; : &quot;Communications&quot;
+  }, {
+    &quot;name&quot; : &quot;Developmental&quot;,
+    &quot;developerName&quot; : &quot;Developmental&quot;,
+    &quot;value&quot; : &quot;Developmental&quot;
+  }, {
+    &quot;name&quot; : &quot;Dexterity&quot;,
+    &quot;developerName&quot; : &quot;Dexterity&quot;,
+    &quot;value&quot; : &quot;Dexterity&quot;
+  }, {
+    &quot;name&quot; : &quot;Flexibility&quot;,
+    &quot;developerName&quot; : &quot;Flexibility&quot;,
+    &quot;value&quot; : &quot;Flexibility&quot;
+  }, {
+    &quot;name&quot; : &quot;Hearing&quot;,
+    &quot;developerName&quot; : &quot;Hearing&quot;,
+    &quot;value&quot; : &quot;Hearing&quot;
+  }, {
+    &quot;name&quot; : &quot;Learning&quot;,
+    &quot;developerName&quot; : &quot;Learning&quot;,
+    &quot;value&quot; : &quot;Learning&quot;
+  }, {
+    &quot;name&quot; : &quot;Memory&quot;,
+    &quot;developerName&quot; : &quot;Memory&quot;,
+    &quot;value&quot; : &quot;Memory&quot;
+  }, {
+    &quot;name&quot; : &quot;Mental-health related&quot;,
+    &quot;developerName&quot; : &quot;Mental-health related&quot;,
+    &quot;value&quot; : &quot;Mental-health related&quot;
+  }, {
+    &quot;name&quot; : &quot;Mobility&quot;,
+    &quot;developerName&quot; : &quot;Mobility&quot;,
+    &quot;value&quot; : &quot;Mobility&quot;
+  }, {
+    &quot;name&quot; : &quot;Pain-related&quot;,
+    &quot;developerName&quot; : &quot;Pain-related&quot;,
+    &quot;value&quot; : &quot;Pain-related&quot;
+  }, {
+    &quot;name&quot; : &quot;Seeing|Disability not listed above.&quot;,
+    &quot;developerName&quot; : &quot;Seeing|Disability not listed above.&quot;,
+    &quot;value&quot; : &quot;Seeing|Disability not listed above.&quot;
+  }, {
+    &quot;name&quot; : &quot;I prefer not to answer&quot;,
+    &quot;developerName&quot; : &quot;I prefer not to answer&quot;,
+    &quot;value&quot; : &quot;I prefer not to answer&quot;
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : {
+    &quot;group&quot; : {
+      &quot;operator&quot; : &quot;AND&quot;,
+      &quot;rules&quot; : [ {
+        &quot;data&quot; : &quot;Yes&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;field&quot; : &quot;HREESI_Disability&quot;
+      } ]
+    }
+  },
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;optionWidth&quot; : 100,
+  &quot;optionHeight&quot; : 100,
+  &quot;imageCountInRow&quot; : 3,
+  &quot;enableCaption&quot; : true,
+  &quot;disOnTplt&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>12.0</sequenceNumber>
+            <type>Multi-select</type>
+            <uniqueIndex>HREESI_DisabilityType</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_GenderIdentity</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;2. Select the option that best describes your current gender identity. &quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Gender-fluid&quot;,
+    &quot;value&quot; : &quot;Gender-fluid&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;Man&quot;,
+    &quot;value&quot; : &quot;Man&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;Nonbinary&quot;,
+    &quot;value&quot; : &quot;Nonbinary&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;Trans man&quot;,
+    &quot;value&quot; : &quot;Trans man&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;Trans woman&quot;,
+    &quot;value&quot; : &quot;Trans woman&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;Two-spirit&quot;,
+    &quot;value&quot; : &quot;Two-spirit&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;Woman&quot;,
+    &quot;value&quot; : &quot;Woman&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;I don&apos;t identify with any option provided&quot;,
+    &quot;value&quot; : &quot;I don&apos;t identify with any option provided&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;I prefer not to answer&quot;,
+    &quot;value&quot; : &quot;I prefer not to answer&quot;,
+    &quot;setAll&quot; : false
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;horizontalMode&quot; : false,
+  &quot;required&quot; : true
+}</propertySetConfig>
+            <sequenceNumber>2.0</sequenceNumber>
+            <type>Radio</type>
+            <uniqueIndex>HREESI_GenderIdentity</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_Indigenous</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;4a. Do you identify as Indigenous, that is, First Nations, Métis or Inuk (Inuit)? &quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Yes&quot;,
+    &quot;value&quot; : &quot;Yes&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;No&quot;,
+    &quot;value&quot; : &quot;No&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;I prefer not to answer&quot;,
+    &quot;value&quot; : &quot;I prefer not to answer&quot;,
+    &quot;setAll&quot; : false
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;required&quot; : true
+}</propertySetConfig>
+            <sequenceNumber>4.0</sequenceNumber>
+            <type>Radio</type>
+            <uniqueIndex>HREESI_Indigenous</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_IndigenousGroups</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;4b. Select the group(s) that you identify with.&quot;,
+  &quot;required&quot; : true,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;horizontalMode&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;First Nations&quot;,
+    &quot;developerName&quot; : &quot;First Nations&quot;,
+    &quot;value&quot; : &quot;First Nations&quot;
+  }, {
+    &quot;name&quot; : &quot;Inuit&quot;,
+    &quot;developerName&quot; : &quot;Inuit&quot;,
+    &quot;value&quot; : &quot;Inuit&quot;
+  }, {
+    &quot;name&quot; : &quot;Métis&quot;,
+    &quot;developerName&quot; : &quot;Métis&quot;,
+    &quot;value&quot; : &quot;Métis&quot;
+  }, {
+    &quot;name&quot; : &quot;I prefer not to answer&quot;,
+    &quot;developerName&quot; : &quot;I prefer not to answer&quot;,
+    &quot;value&quot; : &quot;I prefer not to answer&quot;
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : {
+    &quot;group&quot; : {
+      &quot;operator&quot; : &quot;AND&quot;,
+      &quot;rules&quot; : [ {
+        &quot;data&quot; : &quot;Yes&quot;,
+        &quot;condition&quot; : &quot;=&quot;,
+        &quot;field&quot; : &quot;HREESI_Indigenous&quot;
+      } ]
+    }
+  },
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;optionWidth&quot; : 100,
+  &quot;optionHeight&quot; : 100,
+  &quot;imageCountInRow&quot; : 3,
+  &quot;enableCaption&quot; : true,
+  &quot;disOnTplt&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>5.0</sequenceNumber>
+            <type>Multi-select</type>
+            <uniqueIndex>HREESI_IndigenousGroups</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_LanguageAtHome</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;8b. What language(s) do you speak most often at home?&quot;,
+  &quot;required&quot; : false,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;horizontalMode&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;English&quot;,
+    &quot;developerName&quot; : &quot;English&quot;,
+    &quot;value&quot; : &quot;English&quot;
+  }, {
+    &quot;name&quot; : &quot;French&quot;,
+    &quot;developerName&quot; : &quot;French&quot;,
+    &quot;value&quot; : &quot;French&quot;
+  }, {
+    &quot;name&quot; : &quot;Another language&quot;,
+    &quot;developerName&quot; : &quot;Another language&quot;,
+    &quot;value&quot; : &quot;Another language&quot;
+  }, {
+    &quot;name&quot; : &quot;I prefer not to answer&quot;,
+    &quot;developerName&quot; : &quot;I prefer not to answer&quot;,
+    &quot;value&quot; : &quot;I prefer not to answer&quot;
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;optionWidth&quot; : 100.0,
+  &quot;optionHeight&quot; : 100.0,
+  &quot;imageCountInRow&quot; : 3.0,
+  &quot;enableCaption&quot; : true,
+  &quot;disOnTplt&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>14.0</sequenceNumber>
+            <type>Multi-select</type>
+            <uniqueIndex>HREESI_LanguageAtHome</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_PopulationGroups</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;6. Select the population group(s) you identify with.&quot;,
+  &quot;required&quot; : true,
+  &quot;repeat&quot; : false,
+  &quot;repeatClone&quot; : false,
+  &quot;repeatLimit&quot; : null,
+  &quot;readOnly&quot; : false,
+  &quot;horizontalMode&quot; : false,
+  &quot;defaultValue&quot; : null,
+  &quot;help&quot; : false,
+  &quot;helpText&quot; : &quot;&quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Arab&quot;,
+    &quot;developerName&quot; : &quot;Arab&quot;,
+    &quot;value&quot; : &quot;Arab&quot;
+  }, {
+    &quot;name&quot; : &quot;Black&quot;,
+    &quot;developerName&quot; : &quot;Black&quot;,
+    &quot;value&quot; : &quot;Black&quot;
+  }, {
+    &quot;name&quot; : &quot;Chinese&quot;,
+    &quot;developerName&quot; : &quot;Chinese&quot;,
+    &quot;value&quot; : &quot;Chinese&quot;
+  }, {
+    &quot;name&quot; : &quot;Filipino&quot;,
+    &quot;developerName&quot; : &quot;Filipino&quot;,
+    &quot;value&quot; : &quot;Filipino&quot;
+  }, {
+    &quot;name&quot; : &quot;Japanese&quot;,
+    &quot;developerName&quot; : &quot;Japanese&quot;,
+    &quot;value&quot; : &quot;Japanese&quot;
+  }, {
+    &quot;name&quot; : &quot;Korean&quot;,
+    &quot;developerName&quot; : &quot;Korean&quot;,
+    &quot;value&quot; : &quot;Korean&quot;
+  }, {
+    &quot;name&quot; : &quot;Latin American&quot;,
+    &quot;developerName&quot; : &quot;Latin American&quot;,
+    &quot;value&quot; : &quot;Latin American&quot;
+  }, {
+    &quot;name&quot; : &quot;South Asian (e.g., East Indian, Pakistani, Sri Lankan, etc.)&quot;,
+    &quot;developerName&quot; : &quot;South Asian (e.g., East Indian, Pakistani, Sri Lankan, etc.)&quot;,
+    &quot;value&quot; : &quot;South Asian (e.g., East Indian, Pakistani, Sri Lankan, etc.)&quot;
+  }, {
+    &quot;name&quot; : &quot;Southeast Asian (including Vietnamese, Cambodian, Laotian, Thai, etc.)&quot;,
+    &quot;developerName&quot; : &quot;Southeast Asian (including Vietnamese, Cambodian, Laotian, Thai, etc.)&quot;,
+    &quot;value&quot; : &quot;Southeast Asian (including Vietnamese, Cambodian, Laotian, Thai, etc.)&quot;
+  }, {
+    &quot;name&quot; : &quot;West Asian (e.g. Iranian, Afghan, etc.)&quot;,
+    &quot;developerName&quot; : &quot;West Asian (e.g. Iranian, Afghan, etc.)&quot;,
+    &quot;value&quot; : &quot;West Asian (e.g. Iranian, Afghan, etc.)&quot;
+  }, {
+    &quot;name&quot; : &quot;White&quot;,
+    &quot;developerName&quot; : &quot;White&quot;,
+    &quot;value&quot; : &quot;White&quot;
+  }, {
+    &quot;name&quot; : &quot;Population group not listed above.&quot;,
+    &quot;developerName&quot; : &quot;Population group not listed above.&quot;,
+    &quot;value&quot; : &quot;Population group not listed above.&quot;
+  }, {
+    &quot;name&quot; : &quot;I prefer not to answer&quot;,
+    &quot;developerName&quot; : &quot;I prefer not to answer&quot;,
+    &quot;value&quot; : &quot;I prefer not to answer&quot;
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;accessibleInFutureSteps&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;hide&quot; : false,
+  &quot;optionWidth&quot; : 100,
+  &quot;optionHeight&quot; : 100,
+  &quot;imageCountInRow&quot; : 3,
+  &quot;enableCaption&quot; : true,
+  &quot;disOnTplt&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>8.0</sequenceNumber>
+            <type>Multi-select</type>
+            <uniqueIndex>HREESI_PopulationGroups</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_PreferNotDOB</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;checkLabel&quot; : &quot;I prefer not to answer&quot;
+}</propertySetConfig>
+            <sequenceNumber>1.0</sequenceNumber>
+            <type>Checkbox</type>
+            <uniqueIndex>HREESI_PreferNotDOB</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_Sexual_Orientation</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;3. Select the sexual orientation that best describes how you currently think of yourself. &quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Asexual&quot;,
+    &quot;value&quot; : &quot;Asexual&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;Bisexual&quot;,
+    &quot;value&quot; : &quot;Bisexual&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;Gay&quot;,
+    &quot;value&quot; : &quot;Gay&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;Heterosexual&quot;,
+    &quot;value&quot; : &quot;Heterosexual&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;Lesbian&quot;,
+    &quot;value&quot; : &quot;Lesbian&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;Pansexual&quot;,
+    &quot;value&quot; : &quot;Pansexual&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;Queer&quot;,
+    &quot;value&quot; : &quot;Queer&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;Two-Spirit&quot;,
+    &quot;value&quot; : &quot;Two-Spirit&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;I don&apos;t identify with any option provided&quot;,
+    &quot;value&quot; : &quot;I don&apos;t identify with any option provided&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;I prefer not to answer&quot;,
+    &quot;value&quot; : &quot;I prefer not to answer&quot;,
+    &quot;setAll&quot; : false
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;required&quot; : true
+}</propertySetConfig>
+            <sequenceNumber>3.0</sequenceNumber>
+            <type>Radio</type>
+            <uniqueIndex>HREESI_Sexual_Orientation</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_VisibleMinority</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;5. Do you identify as a member of a visible minority in Canada? &quot;,
+  &quot;options&quot; : [ {
+    &quot;name&quot; : &quot;Yes&quot;,
+    &quot;value&quot; : &quot;Yes&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;No&quot;,
+    &quot;value&quot; : &quot;No&quot;,
+    &quot;setAll&quot; : false
+  }, {
+    &quot;name&quot; : &quot;I prefer not to answer&quot;,
+    &quot;value&quot; : &quot;I prefer not to answer&quot;,
+    &quot;setAll&quot; : false
+  } ],
+  &quot;optionSource&quot; : {
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;controllingField&quot; : {
+    &quot;element&quot; : &quot;&quot;,
+    &quot;type&quot; : &quot;&quot;,
+    &quot;source&quot; : &quot;&quot;
+  },
+  &quot;required&quot; : true
+}</propertySetConfig>
+            <sequenceNumber>7.0</sequenceNumber>
+            <type>Radio</type>
+            <uniqueIndex>HREESI_VisibleMinority</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_VisibleMinorityText</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;The Employment Equity Act defines visible minorities as \&quot;persons, other than Aboriginal peoples, who are non-Caucasian in race or non-white in colour\&quot;.&quot;,
+  &quot;text&quot; : &quot;The Employment Equity Act defines visible minorities as \&quot;persons, other than Aboriginal peoples, who are non-Caucasian in race or non-white in colour\&quot;.&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>6.0</sequenceNumber>
+            <type>Text Block</type>
+            <uniqueIndex>HREESI_VisibleMinorityText</uniqueIndex>
+        </childElements>
+        <designerCustomizationType>Discovery Framework</designerCustomizationType>
+        <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>Identification</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;label&quot; : &quot;Identification&quot;,
+  &quot;validationRequired&quot; : true,
+  &quot;previousLabel&quot; : &quot;Previous&quot;,
+  &quot;previousWidth&quot; : 3.0,
+  &quot;nextLabel&quot; : &quot;Next&quot;,
+  &quot;nextWidth&quot; : 3.0,
+  &quot;cancelLabel&quot; : &quot;Cancel&quot;,
+  &quot;cancelMessage&quot; : &quot;Are you sure?&quot;,
+  &quot;saveLabel&quot; : &quot;Save for later&quot;,
+  &quot;saveMessage&quot; : &quot;Are you sure you want to save it for later?&quot;,
+  &quot;completeLabel&quot; : &quot;Complete&quot;,
+  &quot;completeMessage&quot; : &quot;Are you sure you want to complete the script?&quot;,
+  &quot;instruction&quot; : &quot;&quot;,
+  &quot;showPersistentComponent&quot; : [ true, false ],
+  &quot;remoteClass&quot; : &quot;&quot;,
+  &quot;remoteMethod&quot; : &quot;&quot;,
+  &quot;remoteTimeout&quot; : 30000.0,
+  &quot;remoteOptions&quot; : { },
+  &quot;knowledgeOptions&quot; : {
+    &quot;language&quot; : &quot;English&quot;,
+    &quot;publishStatus&quot; : &quot;Online&quot;,
+    &quot;keyword&quot; : &quot;&quot;,
+    &quot;dataCategoryCriteria&quot; : &quot;&quot;,
+    &quot;remoteTimeout&quot; : 30000.0,
+    &quot;typeFilter&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;instructionKey&quot; : &quot;&quot;,
+  &quot;chartLabel&quot; : null,
+  &quot;allowSaveForLater&quot; : true,
+  &quot;errorMessage&quot; : {
+    &quot;custom&quot; : [ ],
+    &quot;default&quot; : null
+  },
+  &quot;wpm&quot; : false,
+  &quot;ssm&quot; : false,
+  &quot;message&quot; : { },
+  &quot;pubsub&quot; : false,
+  &quot;businessCategory&quot; : &quot;&quot;,
+  &quot;businessEvent&quot; : &quot;&quot;
+}</propertySetConfig>
+        <sequenceNumber>1.0</sequenceNumber>
+        <type>Step</type>
+    </omniProcessElements>
+    <omniProcessElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_PrivacyText1</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;The purpose of the self-identification form is to collect information so the agencies can monitor the\nequity performance of programs and design new measures that achieve greater equity, diversity and\ninclusion in the research enterprise. The Canada Research Chairs Program also uses the data to help\ninstitutions meet their equity and diversity targets.&quot;,
+  &quot;text&quot; : &quot;The purpose of the self-identification form is to collect information so the agencies can monitor the&lt;br/&gt;equity performance of programs and design new measures that achieve greater equity, diversity and&lt;br/&gt;inclusion in the research enterprise. The Canada Research Chairs Program also uses the data to help&lt;br/&gt;institutions meet their equity and diversity targets.&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>0.0</sequenceNumber>
+            <type>Text Block</type>
+            <uniqueIndex>HREESI_PrivacyText1</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_PrivacyText2</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;The personal information is collected under the respective authority of section 4(2)(a) of the Natural\nSciences and Engineering Research Council Act, section 4(2)(a) of the Social Sciences and Humanities\nResearch Council Act, or sections 4, 5 and 26 of the Canadian Institutes of Health Research Act,\ndepending on the program.&quot;,
+  &quot;text&quot; : &quot;The personal information is collected under the respective authority of section 4(2)(a) of the Natural&lt;br/&gt;Sciences and Engineering Research Council Act, section 4(2)(a) of the Social Sciences and Humanities&lt;br/&gt;Research Council Act, or sections 4, 5 and 26 of the Canadian Institutes of Health Research Act,&lt;br/&gt;depending on the program.&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>1.0</sequenceNumber>
+            <type>Text Block</type>
+            <uniqueIndex>HREESI_PrivacyText2</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_PrivacyText3</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Your data will be collected, used, disclosed and retained in accordance with the Privacy Act. It may be\nused for the purposes of program operations(including recruitment for merit review processes, where\napplicable), planning, performance measurement and monitoring, evaluation, and audits, and in\naggregate form to report to government or to the public. Self-identification statistics will always be\nreported in aggregate form, to ensure protection of the identity of any individual.&quot;,
+  &quot;text&quot; : &quot;Your data will be collected, used, disclosed and retained in accordance with the Privacy Act. It may be&lt;br/&gt;used for the purposes of program operations(including recruitment for merit review processes, where&lt;br/&gt;applicable), planning, performance measurement and monitoring, evaluation, and audits, and in&lt;br/&gt;aggregate form to report to government or to the public. Self-identification statistics will always be&lt;br/&gt;reported in aggregate form, to ensure protection of the identity of any individual.&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>2.0</sequenceNumber>
+            <type>Text Block</type>
+            <uniqueIndex>HREESI_PrivacyText3</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_PrivacyText4</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;The Tri-agency Institutional Programs Secretariat (TIPS) also shares aggregated self-identification data\nwith host institutions to allow them to monitor their efforts in meeting their equity targets for the\nCanada Research Chairs Program. While TIPS never sharesself-identification data specific to an\nindividual, it is possible that some institutions may be able to identify some individuals&apos; personal\ninformation when the aggregated data shared isfor fewer than five chairholders. TIPS shares data\nwith only one key administrative contact per institution, identified by the institution as having the\nauthority to receive the data, under very strict confidentiality requirements. No data on sexual\norientation nor the subcategories of visible minority group and persons with disabilities is shared with\ninstitutions.&quot;,
+  &quot;text&quot; : &quot;The Tri-agency Institutional Programs Secretariat (TIPS) also shares aggregated self-identification data&lt;br/&gt;with host institutions to allow them to monitor their efforts in meeting their equity targets for the&lt;br/&gt;Canada Research Chairs Program. While TIPS never sharesself-identification data specific to an&lt;br/&gt;individual, it is possible that some institutions may be able to identify some individuals&apos; personal&lt;br/&gt;information when the aggregated data shared isfor fewer than five chairholders. TIPS shares data&lt;br/&gt;with only one key administrative contact per institution, identified by the institution as having the&lt;br/&gt;authority to receive the data, under very strict confidentiality requirements. No data on sexual&lt;br/&gt;orientation nor the subcategories of visible minority group and persons with disabilities is shared with&lt;br/&gt;institutions.&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>3.0</sequenceNumber>
+            <type>Text Block</type>
+            <uniqueIndex>HREESI_PrivacyText4</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_PrivacyText5</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;For more information, please refer to the relevant agency&apos;s Personal Information Banks:\n&lt;br&gt;NSERC: PSU 941 and PSU 942, described in NSERC&apos;s Info Source.\n&lt;br&gt;SSHRC: PSU 941, PSU 942 and PPU 055, described in SSHRC&apos;s Info Source. The Personal Information\n&lt;br&gt;Bank for the New Frontiers in Research Fund is in development.\n&lt;br&gt;CIHR: PSU 941 and PSU 942, as described in CIHR&apos;s Info Source.&quot;,
+  &quot;text&quot; : &quot;For more information, please refer to the relevant agency&apos;s Personal Information Banks:&lt;br/&gt;&lt;br&gt;NSERC: PSU 941 and PSU 942, described in NSERC&apos;s Info Source.&lt;br/&gt;&lt;br&gt;SSHRC: PSU 941, PSU 942 and PPU 055, described in SSHRC&apos;s Info Source. The Personal Information&lt;br/&gt;&lt;br&gt;Bank for the New Frontiers in Research Fund is in development.&lt;br/&gt;&lt;br&gt;CIHR: PSU 941 and PSU 942, as described in CIHR&apos;s Info Source.&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>4.0</sequenceNumber>
+            <type>Text Block</type>
+            <uniqueIndex>HREESI_PrivacyText5</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_PrivacyText6</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;All applicationsfor funding &lt;b&gt;require you&lt;/b&gt; to complete a self-identification form; however, if you would\nprefer not to self-identify and/or provide the requested information, you may select “I prefer not to\nanswer\&quot; for any or all of the questions. Canada Research Chairs Program nominees must complete a\nself-identification form as an application requirement. Where the nominating institution has not met\nits equity targets, the program restricts nominationsto nominees who have self-identified as a\nmember of one or more of the four designated groups (women, persons with disabilities, Indigenous\npeoples and members of visible minorities). Where the nominating institution has met its equity\ntargets, there are no such restrictions.&quot;,
+  &quot;text&quot; : &quot;All applicationsfor funding &lt;b&gt;require you&lt;/b&gt; to complete a self-identification form; however, if you would&lt;br/&gt;prefer not to self-identify and/or provide the requested information, you may select “I prefer not to&lt;br/&gt;answer\&quot; for any or all of the questions. Canada Research Chairs Program nominees must complete a&lt;br/&gt;self-identification form as an application requirement. Where the nominating institution has not met&lt;br/&gt;its equity targets, the program restricts nominationsto nominees who have self-identified as a&lt;br/&gt;member of one or more of the four designated groups (women, persons with disabilities, Indigenous&lt;br/&gt;peoples and members of visible minorities). Where the nominating institution has met its equity&lt;br/&gt;targets, there are no such restrictions.&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>5.0</sequenceNumber>
+            <type>Text Block</type>
+            <uniqueIndex>HREESI_PrivacyText6</uniqueIndex>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HREESI_PrivacyText7</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;For more information about your rights under the Privacy Act, or our privacy practices, or to access or\ncorrect your personal information, please contact the relevant agency&apos;s access to information and\nprivacy (ATIP) office:\n&lt;br&gt;· NSERC&apos;s ATIP Coordinator\n&lt;br&gt;· SSHRC&apos;s(and TIPS&apos;) ATIP Coordinator\n&lt;br&gt;· CIHR&apos;s ATIP Coordinator&quot;,
+  &quot;text&quot; : &quot;For more information about your rights under the Privacy Act, or our privacy practices, or to access or&lt;br/&gt;correct your personal information, please contact the relevant agency&apos;s access to information and&lt;br/&gt;privacy (ATIP) office:&lt;br/&gt;&lt;br&gt;· NSERC&apos;s ATIP Coordinator&lt;br/&gt;&lt;br&gt;· SSHRC&apos;s(and TIPS&apos;) ATIP Coordinator&lt;br/&gt;&lt;br&gt;· CIHR&apos;s ATIP Coordinator&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>6.0</sequenceNumber>
+            <type>Text Block</type>
+            <uniqueIndex>HREESI_PrivacyText7</uniqueIndex>
+        </childElements>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+        <level>0.0</level>
+        <name>PrivacyNoticeStatement</name>
+        <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+        <propertySetConfig>{
+  &quot;label&quot; : &quot;Privacy notice statement&quot;,
+  &quot;validationRequired&quot; : true,
+  &quot;previousLabel&quot; : &quot;Previous&quot;,
+  &quot;previousWidth&quot; : 3.0,
+  &quot;nextLabel&quot; : &quot;Next&quot;,
+  &quot;nextWidth&quot; : 3.0,
+  &quot;cancelLabel&quot; : &quot;Cancel&quot;,
+  &quot;cancelMessage&quot; : &quot;Are you sure?&quot;,
+  &quot;saveLabel&quot; : &quot;Save for later&quot;,
+  &quot;saveMessage&quot; : &quot;Are you sure you want to save it for later?&quot;,
+  &quot;completeLabel&quot; : &quot;Complete&quot;,
+  &quot;completeMessage&quot; : &quot;Are you sure you want to complete the script?&quot;,
+  &quot;instruction&quot; : &quot;&quot;,
+  &quot;showPersistentComponent&quot; : [ true, false ],
+  &quot;remoteClass&quot; : &quot;&quot;,
+  &quot;remoteMethod&quot; : &quot;&quot;,
+  &quot;remoteTimeout&quot; : 30000.0,
+  &quot;remoteOptions&quot; : { },
+  &quot;knowledgeOptions&quot; : {
+    &quot;language&quot; : &quot;English&quot;,
+    &quot;publishStatus&quot; : &quot;Online&quot;,
+    &quot;keyword&quot; : &quot;&quot;,
+    &quot;dataCategoryCriteria&quot; : &quot;&quot;,
+    &quot;remoteTimeout&quot; : 30000.0,
+    &quot;typeFilter&quot; : &quot;&quot;
+  },
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;instructionKey&quot; : &quot;&quot;,
+  &quot;chartLabel&quot; : null,
+  &quot;allowSaveForLater&quot; : true,
+  &quot;errorMessage&quot; : {
+    &quot;custom&quot; : [ ],
+    &quot;default&quot; : null
+  },
+  &quot;wpm&quot; : false,
+  &quot;ssm&quot; : false,
+  &quot;message&quot; : { },
+  &quot;pubsub&quot; : false,
+  &quot;ariaLevel&quot; : 2.0,
+  &quot;businessCategory&quot; : &quot;&quot;,
+  &quot;businessEvent&quot; : &quot;&quot;
+}</propertySetConfig>
+        <sequenceNumber>0.0</sequenceNumber>
+        <type>Step</type>
+    </omniProcessElements>
+    <omniProcessType>OmniScript</omniProcessType>
+    <propertySetConfig>{&quot;persistentComponent&quot;:[{&quot;render&quot;:false,&quot;label&quot;:&quot;&quot;,&quot;remoteClass&quot;:&quot;&quot;,&quot;remoteMethod&quot;:&quot;&quot;,&quot;remoteTimeout&quot;:30000,&quot;remoteOptions&quot;:{&quot;preTransformBundle&quot;:&quot;&quot;,&quot;postTransformBundle&quot;:&quot;&quot;},&quot;preTransformBundle&quot;:&quot;&quot;,&quot;postTransformBundle&quot;:&quot;&quot;,&quot;sendJSONPath&quot;:&quot;&quot;,&quot;sendJSONNode&quot;:&quot;&quot;,&quot;responseJSONPath&quot;:&quot;&quot;,&quot;responseJSONNode&quot;:&quot;&quot;,&quot;id&quot;:&quot;vlcCart&quot;,&quot;itemsKey&quot;:&quot;cartItems&quot;, &quot;modalConfigurationSetting&quot;:{&quot;modalHTMLTemplateId&quot;:&quot;vlcProductConfig.html&quot;,&quot;modalController&quot;:&quot;ModalProductCtrl&quot;,&quot;modalSize&quot;:&quot;lg&quot;}}, {&quot;render&quot;:false,&quot;dispOutsideOmni&quot;:false,&quot;label&quot;:&quot;&quot;,&quot;remoteClass&quot;:&quot;&quot;,&quot;remoteMethod&quot;:&quot;&quot;,&quot;remoteTimeout&quot;:30000,&quot;remoteOptions&quot;:{&quot;preTransformBundle&quot;:&quot;&quot;,&quot;postTransformBundle&quot;:&quot;&quot;},&quot;preTransformBundle&quot;:&quot;&quot;,&quot;postTransformBundle&quot;:&quot;&quot;,&quot;id&quot;:&quot;vlcKnowledge&quot;,&quot;itemsKey&quot;:&quot;knowledgeItems&quot;, &quot;modalConfigurationSetting&quot;:{&quot;modalHTMLTemplateId&quot;:&quot;&quot;,&quot;modalController&quot;:&quot;&quot;,&quot;modalSize&quot;:&quot;lg&quot;}}],&quot;allowSaveForLater&quot;:true,&quot;saveNameTemplate&quot;:null,&quot;saveExpireInDays&quot;:null,&quot;saveForLaterRedirectPageName&quot;:&quot;sflRedirect&quot;,&quot;saveForLaterRedirectTemplateUrl&quot;:&quot;vlcSaveForLaterAcknowledge.html&quot;,&quot;saveContentEncoded&quot;:false,&quot;saveObjectId&quot;:&quot;%ContextId%&quot;,&quot;saveURLPatterns&quot;:{},&quot;autoSaveOnStepNext&quot;:false, &quot;elementTypeToHTMLTemplateMapping&quot;:{},&quot;seedDataJSON&quot;:{}, &quot;trackingCustomData&quot;:{},&quot;enableKnowledge&quot;:false,&quot;bLK&quot;:false,&quot;lkObjName&quot;:null,&quot;knowledgeArticleTypeQueryFieldsMap&quot;:{},&quot;timeTracking&quot;:false, &quot;hideStepChart&quot;:false, &quot;mergeSavedData&quot;: false,&quot;visualforcePagesAvailableInPreview&quot;:{},&quot;cancelType&quot;:&quot;SObject&quot;,&quot;allowCancel&quot;:true,&quot;cancelSource&quot;:&quot;%ContextId%&quot;,&quot;cancelRedirectPageName&quot;:&quot;OmniScriptCancelled&quot;,&quot;cancelRedirectTemplateUrl&quot;:&quot;vlcCancelled.html&quot;,&quot;consoleTabLabel&quot;:&quot;New&quot;,&quot;wpm&quot;:false,&quot;ssm&quot;:false,&quot;message&quot;:{},&quot;pubsub&quot;:false,&quot;autoFocus&quot;:false, &quot;currencyCode&quot;:&quot;&quot;, &quot;showInputWidth&quot;:false, &quot;rtpSeed&quot;:false,&quot;consoleTabTitle&quot;:null,&quot;consoleTabIcon&quot;:&quot;custom:custom18&quot;,&quot;errorMessage&quot;:{&quot;custom&quot;:[]},&quot;stylesheet&quot;:{&quot;newport&quot;:&quot;&quot;,&quot;lightning&quot;:&quot;&quot;,&quot;newportRtl&quot;:&quot;&quot;,&quot;lightningRtl&quot;:&quot;&quot;},&quot;stepChartPlacement&quot;:&quot;right&quot;,&quot;disableUnloadWarn&quot;:true,&quot;scrollBehavior&quot;:&quot;auto&quot;}</propertySetConfig>
+    <subType>EmploymentEquitySelfIdentify</subType>
+    <type>HRAccelerator</type>
+    <uniqueName>HRAccelerator_EmploymentEquitySelfIdentify_English_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+</OmniScript>

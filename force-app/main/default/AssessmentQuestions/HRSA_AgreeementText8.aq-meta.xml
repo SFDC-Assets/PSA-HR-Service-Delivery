@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSA_AgreeementText8</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>F. [Company Name] reserves the right to take disciplinary action, up to and including
+termination, for violations of this agreement in addition to pursuing civil or criminal
+penalties.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSA_AgreeementText8</developerName>
+    <name>HRSA_AgreeementText8</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

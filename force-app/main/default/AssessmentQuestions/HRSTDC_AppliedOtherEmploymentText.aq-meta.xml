@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_AppliedOtherEmploymentText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Earnings from other employment (where employment startedafter last day worked at Canada Post)</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSTDC_AppliedOtherEmploymentText</developerName>
+    <name>HRSTDC_AppliedOtherEmploymentText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

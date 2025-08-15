@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRBPD_Change_Reason_for_the_change</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Reason for the change</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRBPD_Change_Reason_for_the_change</developerName>
+    <name>HRBPD_Change_Reason_for_the_change</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_PrivacyText5</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>For more information, please refer to the relevant agency&apos;s Personal Information Banks:
+&lt;br&gt;NSERC: PSU 941 and PSU 942, described in NSERC&apos;s Info Source.
+&lt;br&gt;SSHRC: PSU 941, PSU 942 and PPU 055, described in SSHRC&apos;s Info Source. The Personal Information
+&lt;br&gt;Bank for the New Frontiers in Research Fund is in development.
+&lt;br&gt;CIHR: PSU 941 and PSU 942, as described in CIHR&apos;s Info Source.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HREESI_PrivacyText5</developerName>
+    <name>HREESI_PrivacyText5</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

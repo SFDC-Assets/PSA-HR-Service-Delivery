@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREHR_AcknowledgementText5</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>I understand and agree that nothing in the employee handbook creates, or is intended to
+create, a promise or representation of continued employment and that employment at
+[Company Name] is employment at-will, which may be terminated at the will of either
+[Company Name] or myself. Furthermore, I acknowledge that this handbook is neither a
+contract of employment nor a legal document. I understand and agree that employment and
+compensation may be terminated with or without cause and with or without notice at any time by
+[Company Name] or myself.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HREHR_AcknowledgementText5</developerName>
+    <name>HREHR_AcknowledgementText5</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

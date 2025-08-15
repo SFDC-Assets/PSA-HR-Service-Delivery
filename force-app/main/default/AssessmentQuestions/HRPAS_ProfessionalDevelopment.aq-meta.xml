@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRPAS_ProfessionalDevelopment</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>4. Describe your professional development activities since last year, such as offsite seminars/classes (specify if self-directed or required by your supervisor), onsite training, peer training, management coaching or mentoring, on-the-job experience, exposure to challenging projects, other—please describe.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRPAS_ProfessionalDevelopment</developerName>
+    <name>HRPAS_ProfessionalDevelopment</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

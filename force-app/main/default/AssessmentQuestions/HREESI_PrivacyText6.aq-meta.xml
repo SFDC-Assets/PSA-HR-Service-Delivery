@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_PrivacyText6</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>All applicationsfor funding &lt;b&gt;require you&lt;/b&gt; to complete a self-identification form; however, if you would
+prefer not to self-identify and/or provide the requested information, you may select “I prefer not to
+answer&quot; for any or all of the questions. Canada Research Chairs Program nominees must complete a
+self-identification form as an application requirement. Where the nominating institution has not met
+its equity targets, the program restricts nominationsto nominees who have self-identified as a
+member of one or more of the four designated groups (women, persons with disabilities, Indigenous
+peoples and members of visible minorities). Where the nominating institution has met its equity
+targets, there are no such restrictions.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HREESI_PrivacyText6</developerName>
+    <name>HREESI_PrivacyText6</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

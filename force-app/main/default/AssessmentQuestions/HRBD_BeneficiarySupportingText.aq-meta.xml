@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRBD_BeneficiarySupportingText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Proceeds are paid to primary surviving beneficiaries in equal amounts unless otherwise
+indicated. Proceeds are paid to contingent beneficiaries only when there are no surviving
+primary beneficiaries. If you designate contingent beneficiaries and do not designate
+percentages, proceeds are paid to the surviving contingent beneficiaries in equal amounts.
+Unless otherwise provided, the share of a beneficiary who dies before the insured will be
+divided proportionately among the surviving beneficiaries in the respective category (primary or
+contingent).</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRBD_BeneficiarySupportingText</developerName>
+    <name>HRBD_BeneficiarySupportingText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

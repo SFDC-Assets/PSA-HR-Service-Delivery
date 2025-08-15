@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGBE_PlanMemberHaveSpouse</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Do you have a spouse?</questionText>
+        <responseValues>Yes
+No</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HRGBE_PlanMemberHaveSpouse</developerName>
+    <name>HRGBE_PlanMemberHaveSpouse</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

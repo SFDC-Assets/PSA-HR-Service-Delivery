@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRBD_PrimaryBeneficiaryPercentage</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Percentage:</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Integer</dataType>
+    <developerName>HRBD_PrimaryBeneficiaryPercentage</developerName>
+    <name>HRBD_PrimaryBeneficiaryPercentage</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

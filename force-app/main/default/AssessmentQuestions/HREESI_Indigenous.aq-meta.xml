@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_Indigenous</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>4a. Do you identify as Indigenous, that is, First Nations, Métis or Inuk (Inuit)?</questionText>
+        <responseValues>Yes
+No
+I prefer not to answer</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HREESI_Indigenous</developerName>
+    <name>HREESI_Indigenous</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

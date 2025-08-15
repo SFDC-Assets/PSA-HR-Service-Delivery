@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREHCC_Name_of_spouses_insurance_company</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Name of spouse&apos;s insurance company</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HREHCC_Name_of_spouses_insurance_company</developerName>
+    <name>HREHCC_Name_of_spouses_insurance_company</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

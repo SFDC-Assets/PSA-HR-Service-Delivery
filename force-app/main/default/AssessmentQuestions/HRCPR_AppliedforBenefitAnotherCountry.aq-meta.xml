@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_AppliedforBenefitAnotherCountry</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Have you applied for a benefit from another country?</questionText>
+        <responseValues>Yes
+No</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HRCPR_AppliedforBenefitAnotherCountry</developerName>
+    <name>HRCPR_AppliedforBenefitAnotherCountry</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

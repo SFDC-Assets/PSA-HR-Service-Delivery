@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_IllnessClaimText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>If your claim is approved as an “illness claim”, personal days then top-up credits will be used automatically to cover the waiting period, where available. If you have
+insufficient personal days or top-up credits to cover the waiting period, you will be given the option to use annual (vacation) leave or compensatory leave; if you choose neither , any remaining time in the waiting period will be coded as “STDP Unpaid Pensionable.” Indicate your choice below</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSTDC_IllnessClaimText</developerName>
+    <name>HRSTDC_IllnessClaimText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

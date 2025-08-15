@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSA_Background</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>In accordance with section 54 of the &lt;I&gt;Public Service Employment Act&lt;/I&gt; (PSEA) the following persons must subscribe and sign an oath or affirmation as a condition of employment &lt;b&gt;before&lt;/b&gt; the start date or, &lt;b&gt;at the latest&lt;/b&gt;, during the first day of work:&lt;br&gt;
+&lt;ul&gt;&lt;li&gt;Any person being appointed from outside the public service&lt;/li&gt;
+&lt;li&gt;Every person appointed or deployed from outside the public service in which the Public Service Commission has exclusive authority to make appointments&lt;/li&gt;
+&lt;li&gt;All students (including initial employment and re-employment following a break in service of a workday or more).&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;
+You must subscribe the Oath or Solemn Affirmation below out loud.  You must also identify the name of the person (direct supervisor or designated employee) who administered it to you.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSA_Background</developerName>
+    <name>HRSA_Background</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

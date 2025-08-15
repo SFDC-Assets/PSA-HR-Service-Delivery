@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREHCC_HCSA_Contract_Number</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>HCSA Contract Number</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HREHCC_HCSA_Contract_Number</developerName>
+    <name>HREHCC_HCSA_Contract_Number</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

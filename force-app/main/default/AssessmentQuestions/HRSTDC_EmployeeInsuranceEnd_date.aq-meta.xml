@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_EmployeeInsuranceEnd_date</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>End date</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Date</dataType>
+    <developerName>HRSTDC_EmployeeInsuranceEnd_date</developerName>
+    <name>HRSTDC_EmployeeInsuranceEnd_date</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_Federal_Income_Tax_Amount</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Federal Income Tax Amount</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Currency</dataType>
+    <developerName>HRCPR_Federal_Income_Tax_Amount</developerName>
+    <name>HRCPR_Federal_Income_Tax_Amount</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

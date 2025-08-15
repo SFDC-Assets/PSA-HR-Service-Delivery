@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGRRSP_Name_of_employer_plan_sponsor</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Name of employer/plan sponsor</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRGRRSP_Name_of_employer_plan_sponsor</developerName>
+    <name>HRGRRSP_Name_of_employer_plan_sponsor</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

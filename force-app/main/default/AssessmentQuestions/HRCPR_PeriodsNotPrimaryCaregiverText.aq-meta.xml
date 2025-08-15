@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_PeriodsNotPrimaryCaregiverText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>If there were periods of time when you were not the primary caregiver for the child(ren) you listed, please provide the dates and reasons</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRCPR_PeriodsNotPrimaryCaregiverText</developerName>
+    <name>HRCPR_PeriodsNotPrimaryCaregiverText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

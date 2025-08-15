@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGBE_Salary</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Salary</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Currency</dataType>
+    <developerName>HRGBE_Salary</developerName>
+    <name>HRGBE_Salary</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

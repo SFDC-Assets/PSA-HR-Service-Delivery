@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_PrivacyText3</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Your data will be collected, used, disclosed and retained in accordance with the Privacy Act. It may be
+used for the purposes of program operations(including recruitment for merit review processes, where
+applicable), planning, performance measurement and monitoring, evaluation, and audits, and in
+aggregate form to report to government or to the public. Self-identification statistics will always be
+reported in aggregate form, to ensure protection of the identity of any individual.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HREESI_PrivacyText3</developerName>
+    <name>HREESI_PrivacyText3</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

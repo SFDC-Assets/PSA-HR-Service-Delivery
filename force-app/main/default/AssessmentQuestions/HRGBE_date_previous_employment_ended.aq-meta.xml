@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGBE_date_previous_employment_ended</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Date previous employment ended</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Date</dataType>
+    <developerName>HRGBE_date_previous_employment_ended</developerName>
+    <name>HRGBE_date_previous_employment_ended</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

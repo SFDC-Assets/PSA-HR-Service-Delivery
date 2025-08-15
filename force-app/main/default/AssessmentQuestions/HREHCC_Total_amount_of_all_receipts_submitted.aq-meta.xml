@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREHCC_Total_amount_of_all_receipts_submitted</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Total amount of all receipts submitted</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Currency</dataType>
+    <developerName>HREHCC_Total_amount_of_all_receipts_submitted</developerName>
+    <name>HREHCC_Total_amount_of_all_receipts_submitted</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREHR_AcknowledgementText4</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>I understand that, except for employment at-will status, any and all policies and practices may
+be changed at any time by [Company Name], and the company reserves the right to change my
+hours, wages and working conditions at any time. All such changes will be communicated
+through official notices, and I understand that revised information may supersede, modify, or
+eliminate existing policies.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HREHR_AcknowledgementText4</developerName>
+    <name>HREHR_AcknowledgementText4</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

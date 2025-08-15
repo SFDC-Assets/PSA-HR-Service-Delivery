@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSA_AgreeementText10</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>H. All provisions of this agreement will be applicable only to the extent that they do not
+violate any applicable law and are intended to be limited to the extent necessary so that
+they will not render this agreement invalid, illegal or unenforceable. If any provision of
+this agreement or any application thereof will be held to be invalid, illegal or
+unenforceable, the validity, legality and enforceability of other provisions of this
+agreement or of any other application of such provision will in no way be affected
+thereby.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSA_AgreeementText10</developerName>
+    <name>HRSA_AgreeementText10</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

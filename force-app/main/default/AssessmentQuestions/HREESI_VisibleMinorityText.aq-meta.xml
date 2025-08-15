@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_VisibleMinorityText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>The Employment Equity Act defines visible minorities as &quot;persons, other than Aboriginal peoples, who are non-Caucasian in race or non-white in colour&quot;.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HREESI_VisibleMinorityText</developerName>
+    <name>HREESI_VisibleMinorityText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

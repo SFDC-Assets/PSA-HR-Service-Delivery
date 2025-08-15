@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_Disability</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>7a. Do you identify as a person with a disability as described in the Act?</questionText>
+        <responseValues>Yes
+No
+I prefer not to answer</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HREESI_Disability</developerName>
+    <name>HREESI_Disability</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

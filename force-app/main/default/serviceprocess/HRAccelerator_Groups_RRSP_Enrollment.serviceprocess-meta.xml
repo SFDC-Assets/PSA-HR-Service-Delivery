@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <processLabel>Groups RRSP Enrollment</processLabel>
+    <serviceProcessDependencies>
+        <dependencyReference>HRAccelerator_GroupRRSPEnrollment_English_1</dependencyReference>
+        <processStepName>RequestForm</processStepName>
+        <type>OmniScriptConfig</type>
+    </serviceProcessDependencies>
+    <serviceProcessItemGroups>
+        <apiName>section_2</apiName>
+        <groupName>Untitled Section</groupName>
+        <sortOrder>2</sortOrder>
+    </serviceProcessItemGroups>
+    <usageType>Industry</usageType>
+</ServiceProcess>

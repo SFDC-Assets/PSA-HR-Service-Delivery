@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRPAS_NameOtherManagement</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>8. Name any other management personnel, besides your current supervisor, that you feel should provide input toward your performance appraisal.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRPAS_NameOtherManagement</developerName>
+    <name>HRPAS_NameOtherManagement</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

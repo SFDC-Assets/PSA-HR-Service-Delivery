@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRPAS_NewTasks</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>2. Since the last appraisal period, have you successfully performed any new tasks or additional duties outside the scope of your regular responsibilities? If so, please specify.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRPAS_NewTasks</developerName>
+    <name>HRPAS_NewTasks</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

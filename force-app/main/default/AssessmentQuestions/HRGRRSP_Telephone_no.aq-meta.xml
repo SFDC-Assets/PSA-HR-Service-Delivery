@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGRRSP_Telephone_no</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Telephone no.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Telephone</dataType>
+    <developerName>HRGRRSP_Telephone_no</developerName>
+    <name>HRGRRSP_Telephone_no</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

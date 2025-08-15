@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_First_day_of_absence</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>First day of absence</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Date</dataType>
+    <developerName>HRSTDC_First_day_of_absence</developerName>
+    <name>HRSTDC_First_day_of_absence</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

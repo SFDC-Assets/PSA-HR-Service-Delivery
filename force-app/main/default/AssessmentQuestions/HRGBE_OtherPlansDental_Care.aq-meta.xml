@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGBE_OtherPlansDental_Care</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Dental Care</questionText>
+        <responseValues>Single
+Couple
+Family
+None</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HRGBE_OtherPlansDental_Care</developerName>
+    <name>HRGBE_OtherPlansDental_Care</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

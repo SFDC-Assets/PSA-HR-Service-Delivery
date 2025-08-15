@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREHCC_ExpensesRelatedToWork</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Are any of the expenses associated with a work related incident and eligible for workers&apos; compensation benefits?</questionText>
+        <responseValues>Yes
+No</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HREHCC_ExpensesRelatedToWork</developerName>
+    <name>HREHCC_ExpensesRelatedToWork</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

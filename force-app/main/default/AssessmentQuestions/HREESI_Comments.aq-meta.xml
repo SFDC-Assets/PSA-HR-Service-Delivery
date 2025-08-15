@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_Comments</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Comments or suggestions about the self-identification questionnaire</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HREESI_Comments</developerName>
+    <name>HREESI_Comments</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRBPD_Add_Level_of_coverage</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Level of coverage</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRBPD_Add_Level_of_coverage</developerName>
+    <name>HRBPD_Add_Level_of_coverage</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

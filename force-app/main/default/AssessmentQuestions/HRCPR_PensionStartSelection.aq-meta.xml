@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_PensionStartSelection</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>When do you want your pension to start?</questionText>
+        <responseValues>As soon as I qualify (you may qualify as early as the month after your 60th birthday), or
+As of (indicate a date)</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HRCPR_PensionStartSelection</developerName>
+    <name>HRCPR_PensionStartSelection</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

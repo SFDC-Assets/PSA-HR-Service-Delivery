@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_GenderIdentity</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>2. Select the option that best describes your current gender identity.</questionText>
+        <responseValues>Gender-fluid
+Man
+Nonbinary
+Trans man
+Trans woman
+Two-spirit
+Woman
+I don&apos;t identify with any option provided
+I prefer not to answer</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HREESI_GenderIdentity</developerName>
+    <name>HREESI_GenderIdentity</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

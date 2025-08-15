@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREEC_SECRelationship_to_Contact</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Relationship to Contact</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HREEC_SECRelationship_to_Contact</developerName>
+    <name>HREEC_SECRelationship_to_Contact</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

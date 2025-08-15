@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSA_AgreeementText9</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>G. This agreement will be interpreted under and governed by the laws of the state of
+____________.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSA_AgreeementText9</developerName>
+    <name>HRSA_AgreeementText9</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

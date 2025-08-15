@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRPAS_Activities</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>3. What activities have you initiated, or actively participated in, to encourage camaraderie and teamwork within your group and/or office? What was the result?</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRPAS_Activities</developerName>
+    <name>HRPAS_Activities</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

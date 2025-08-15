@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRBPD_Cancel_AcknowledgementText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Pre-tax benefit changes are subject to the mid-year election change rules outlined in the benefit summary plan
+description.
+I no longer desire to participate in the pre-tax salary deduction program for the above listed benefits. Please
+cancel the above deductions as of the above effective date.* Deduction cancellation requests must be received
+eight work days prior to the effective pay date.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRBPD_Cancel_AcknowledgementText</developerName>
+    <name>HRBPD_Cancel_AcknowledgementText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

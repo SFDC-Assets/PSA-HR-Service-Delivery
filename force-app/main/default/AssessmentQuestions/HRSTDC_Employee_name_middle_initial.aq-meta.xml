@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_Employee_name_middle_initial</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Employee middle initial</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRSTDC_Employee_name_middle_initial</developerName>
+    <name>HRSTDC_Employee_name_middle_initial</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

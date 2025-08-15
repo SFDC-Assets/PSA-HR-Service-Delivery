@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGRRSP_Name_of_investment_and_or_code</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Name of investment and/or code</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRGRRSP_Name_of_investment_and_or_code</developerName>
+    <name>HRGRRSP_Name_of_investment_and_or_code</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

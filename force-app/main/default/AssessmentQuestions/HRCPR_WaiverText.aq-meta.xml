@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_WaiverText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>I declare that, for the child(ren) listed for this section and on any additional sheets, I have not and will not make any claims for the Child rearing Provision for the period(s) accredited to my current/former spouse or common-law partner.  Once I give up my rights to the Child Rearing Provision, the action cannot be reversed.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRCPR_WaiverText</developerName>
+    <name>HRCPR_WaiverText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

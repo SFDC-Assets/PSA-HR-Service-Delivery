@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_PrivacyText7</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>For more information about your rights under the Privacy Act, or our privacy practices, or to access or
+correct your personal information, please contact the relevant agency&apos;s access to information and
+privacy (ATIP) office:
+&lt;br&gt;· NSERC&apos;s ATIP Coordinator
+&lt;br&gt;· SSHRC&apos;s(and TIPS&apos;) ATIP Coordinator
+&lt;br&gt;· CIHR&apos;s ATIP Coordinator</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HREESI_PrivacyText7</developerName>
+    <name>HREESI_PrivacyText7</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

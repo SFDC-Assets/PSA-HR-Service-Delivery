@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_Salutation_optional</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Salutation</questionText>
+        <responseValues>Mr.
+Mrs.
+Miss
+Ms.</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HRCPR_Salutation_optional</developerName>
+    <name>HRCPR_Salutation_optional</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

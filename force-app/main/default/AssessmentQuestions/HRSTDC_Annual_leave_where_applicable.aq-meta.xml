@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_Annual_leave_where_applicable</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Annual leave (where applicable)</questionText>
+        <responseValues>No
+Yes
+I&apos;ll decide later</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HRSTDC_Annual_leave_where_applicable</developerName>
+    <name>HRSTDC_Annual_leave_where_applicable</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

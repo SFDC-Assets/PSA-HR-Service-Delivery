@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRBPD_ChangeCancelDisclaimer</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Cancellations and changes to payroll deductions will normally be effective the pay period following the date on
+this form. Retroactive changes are not authorized.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRBPD_ChangeCancelDisclaimer</developerName>
+    <name>HRBPD_ChangeCancelDisclaimer</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

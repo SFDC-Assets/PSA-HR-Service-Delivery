@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRPAS_Technical_Knowledge</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>b. Technical Knowledge (up-to-date on industry/discipline news, articles and best practices)</questionText>
+        <responseValues>4 - Outstanding/Role Model
+3 - Very Competent
+2 - Satisfactory
+1 - Inexperienced or Improvement Needed</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HRPAS_Technical_Knowledge</developerName>
+    <name>HRPAS_Technical_Knowledge</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

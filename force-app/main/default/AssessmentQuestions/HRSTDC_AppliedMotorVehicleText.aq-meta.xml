@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_AppliedMotorVehicleText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Benefits payable from motor vehicle insurance or other insurance (e.g. SAAQ, MPI, SGI, ICBC, etc.)</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSTDC_AppliedMotorVehicleText</developerName>
+    <name>HRSTDC_AppliedMotorVehicleText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

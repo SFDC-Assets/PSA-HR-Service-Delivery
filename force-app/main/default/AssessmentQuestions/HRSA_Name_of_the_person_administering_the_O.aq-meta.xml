@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSA_Name_of_the_person_administering_the_O</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Name of the person administering the Oath or Solemn Affirmation to you</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRSA_Name_of_the_person_administering_the_O</developerName>
+    <name>HRSA_Name_of_the_person_administering_the_O</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_Current_marital_status</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>What is your current marital status?</questionText>
+        <responseValues>Single
+Common-law
+Divorced
+Married
+Separated
+Surviving spouse or common-law partner</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HRCPR_Current_marital_status</developerName>
+    <name>HRCPR_Current_marital_status</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

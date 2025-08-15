@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGRRSP_BeneficiaryCommon_law_partner</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Common-law partner</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Checkbox</dataType>
+    <developerName>HRGRRSP_BeneficiaryCommon_law_partner</developerName>
+    <name>HRGRRSP_BeneficiaryCommon_law_partner</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

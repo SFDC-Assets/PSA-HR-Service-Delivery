@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_Child_date_of_birth</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Child&apos;s date of birth</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Date</dataType>
+    <developerName>HRCPR_Child_date_of_birth</developerName>
+    <name>HRCPR_Child_date_of_birth</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

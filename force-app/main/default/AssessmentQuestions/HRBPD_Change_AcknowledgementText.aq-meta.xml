@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRBPD_Change_AcknowledgementText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Pre-tax benefit changes are subject to the mid-year election change rules outlined in the benefit summary plan
+description.
+I authorize the above pre-tax salary deductions to be withheld from my bi-weekly pay. I authorize deduction rate
+increases or changes as required by the benefit provider in accordance with the terms and conditions of the
+benefit policies.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRBPD_Change_AcknowledgementText</developerName>
+    <name>HRBPD_Change_AcknowledgementText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

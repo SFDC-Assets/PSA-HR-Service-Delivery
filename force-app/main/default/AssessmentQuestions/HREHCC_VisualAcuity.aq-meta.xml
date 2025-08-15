@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREHCC_VisualAcuity</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Can visual acuity be improved by at least 2 lines on the Snellen chart over the best possible vision with glasses?</questionText>
+        <responseValues>Yes
+No</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HREHCC_VisualAcuity</developerName>
+    <name>HREHCC_VisualAcuity</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

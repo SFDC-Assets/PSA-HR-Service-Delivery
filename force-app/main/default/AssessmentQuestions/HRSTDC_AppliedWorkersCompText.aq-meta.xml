@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_AppliedWorkersCompText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Benefits payable under any type of Worker’s CompensationBoard program (WCB / WSIB / CSST)</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSTDC_AppliedWorkersCompText</developerName>
+    <name>HRSTDC_AppliedWorkersCompText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

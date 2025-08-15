@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_SignatureText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>I hereby apply for the CPP Retirement pension under the Canada Pension Plan and declare that I have read and understood the Privacy Notice Statement above and to the best of my knowledge and belief, all of the information herein is true and complete.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRCPR_SignatureText</developerName>
+    <name>HRCPR_SignatureText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

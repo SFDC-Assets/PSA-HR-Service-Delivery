@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_LanguageAtHome</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>8b. What language(s) do you speak most often at home?</questionText>
+        <responseValues>English
+French
+Another language
+I prefer not to answer</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Multiselect</dataType>
+    <developerName>HREESI_LanguageAtHome</developerName>
+    <name>HREESI_LanguageAtHome</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

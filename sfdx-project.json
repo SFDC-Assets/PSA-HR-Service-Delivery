@@ -1,0 +1,30 @@
+{
+  "packageDirectories": [
+    {
+      "versionName": "ver 1.1",
+      "versionNumber": "1.0.1.NEXT",
+      "path": "force-app",
+      "default": true,
+      "package": "HRAccelerator",
+      "versionDescription": "Components for HR Accelerator"
+    }
+  ],
+  "name": "HRAccelerator",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "64.0",
+  "packageAliases": {
+    "HRAccelerator": "0HoHu000000TQlJKAW",
+    "HRAccelerator@1.0.0-1": "04tHu000004MAuAIAW",
+    "HRAccelerator@1.0.0-2": "04tHu000004MAuFIAW",
+    "HRAccelerator@1.0.0-3": "04tHu000004MAuKIAW",
+    "HRAccelerator@1.0.0-4": "04tHu000004MAuPIAW",
+    "HRAccelerator@1.0.0-5": "04tHu000004MAycIAG",
+    "HRAccelerator@1.0.1-1": "04tHu000004MB6xIAG",
+    "HRAccelerator@1.0.1-2": "04tHu000004MB72IAG",
+    "HRAccelerator@1.0.1-3": "04tHu000004MBJkIAO",
+    "HRAcceleratorServiceProcesses": "0HoHu000000TQpWKAW",
+    "HRAcceleratorServiceProcesses@0.1.0-1": "04tHu000004MBJpIAO",
+    "HRAcceleratorServiceProcesses@1.0.0-1": "04tHu000004MBJuIAO"
+  }
+}

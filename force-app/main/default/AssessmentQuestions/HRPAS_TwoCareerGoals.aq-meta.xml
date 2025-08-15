@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRPAS_TwoCareerGoals</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>6. Identify two career goals for the coming year and indicate how you plan to accomplish them.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRPAS_TwoCareerGoals</developerName>
+    <name>HRPAS_TwoCareerGoals</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

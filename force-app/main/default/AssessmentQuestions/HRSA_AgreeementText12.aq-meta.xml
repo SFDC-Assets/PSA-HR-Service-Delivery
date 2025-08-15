@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSA_AgreeementText12</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>(1) Immunity—An individual will not be held criminally or civilly liable under any federal or state
+trade secret law for the disclosure of a trade secret that (A) is made (i) in confidence to a
+federal, state or local government official, either directly or indirectly, or to an attorney and (ii)
+solely for the purpose of reporting or investigating a suspected violation of law or (B) is made in
+a complaint or other document filed in a lawsuit or other proceeding, if such filing is made under
+seal.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSA_AgreeementText12</developerName>
+    <name>HRSA_AgreeementText12</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

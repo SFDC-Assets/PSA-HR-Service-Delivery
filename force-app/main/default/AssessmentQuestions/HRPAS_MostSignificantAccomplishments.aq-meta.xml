@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRPAS_MostSignificantAccomplishments</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>1. List your most significant accomplishments or contributions since last year. How do these achievements align with the goals/objectives outlined in your last review?</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRPAS_MostSignificantAccomplishments</developerName>
+    <name>HRPAS_MostSignificantAccomplishments</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

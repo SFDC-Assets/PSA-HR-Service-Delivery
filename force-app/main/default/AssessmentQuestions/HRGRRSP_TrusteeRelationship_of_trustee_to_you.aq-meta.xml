@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGRRSP_TrusteeRelationship_of_trustee_to_you</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Relationship of trustee to you</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRGRRSP_TrusteeRelationship_of_trustee_to_you</developerName>
+    <name>HRGRRSP_TrusteeRelationship_of_trustee_to_you</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_Signature_of_witness</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Signature of witness</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRCPR_Signature_of_witness</developerName>
+    <name>HRCPR_Signature_of_witness</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRPAS_RatingIntro</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>7. Evaluate yourself on all factors that apply to you since your last performance appraisal, or date of hire if employed here less than one year.</questionText>
+        <status>Active</status>
+        <versionNumber>2</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRPAS_RatingIntro</developerName>
+    <name>HRPAS_RatingIntro</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

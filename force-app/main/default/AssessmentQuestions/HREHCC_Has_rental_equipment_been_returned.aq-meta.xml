@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREHCC_Has_rental_equipment_been_returned</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Has rental equipment been returned?</questionText>
+        <responseValues>Yes
+No</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HREHCC_Has_rental_equipment_been_returned</developerName>
+    <name>HREHCC_Has_rental_equipment_been_returned</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

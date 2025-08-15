@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGRRSP_AlternateProvince</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Province</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRGRRSP_AlternateProvince</developerName>
+    <name>HRGRRSP_AlternateProvince</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

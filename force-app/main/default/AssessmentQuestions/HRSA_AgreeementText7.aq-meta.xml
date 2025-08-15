@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSA_AgreeementText7</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>E. [Company Name] will have the sole right to determine the treatment of all inventions,
+writings, ideas and discoveries received from Employee during the period of employment
+with [Company Name], including the right to keep the same as a trade secret, to use and
+disclose the same without prior patent applications, to file copyright registrations in its
+own name, or to follow any other procedure as [Company Name] may deem appropriate.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSA_AgreeementText7</developerName>
+    <name>HRSA_AgreeementText7</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

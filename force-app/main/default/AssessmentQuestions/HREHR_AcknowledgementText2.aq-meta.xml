@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREHR_AcknowledgementText2</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>I understand and agree that no manager, supervisor, or representative of [Company Name] has
+any authority to enter into any agreement for employment other than at-will. Only the President
+of the company has the authority to make any such agreement and then only in writing signed
+by the President of [Company Name].</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HREHR_AcknowledgementText2</developerName>
+    <name>HREHR_AcknowledgementText2</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

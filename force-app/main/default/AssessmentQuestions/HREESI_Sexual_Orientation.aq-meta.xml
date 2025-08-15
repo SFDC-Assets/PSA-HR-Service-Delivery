@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_Sexual_Orientation</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>3. Select the sexual orientation that best describes how you currently think of yourself.</questionText>
+        <responseValues>Asexual
+Bisexual
+Gay
+Heterosexual
+Lesbian
+Pansexual
+Queer
+Two-Spirit
+I don&apos;t identify with any option provided
+I prefer not to answer</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HREESI_Sexual_Orientation</developerName>
+    <name>HREESI_Sexual_Orientation</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_DisabilityText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>The Accessible Canada Act defines disability as “any impairment, including a physical, mental, intellectual, cognitive, learning, communication or sensory impairment—or a functional limitation—whether permanent, temporary or episodic in nature, or evident or not, that, in interaction with a barrier, hinders a person’s full and equal participation in society.”</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HREESI_DisabilityText</developerName>
+    <name>HREESI_DisabilityText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

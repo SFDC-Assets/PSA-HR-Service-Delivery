@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_MotorInsuranceAmount</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Amount</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Currency</dataType>
+    <developerName>HRSTDC_MotorInsuranceAmount</developerName>
+    <name>HRSTDC_MotorInsuranceAmount</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

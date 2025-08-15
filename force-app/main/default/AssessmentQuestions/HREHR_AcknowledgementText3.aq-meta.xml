@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREHR_AcknowledgementText3</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>This manual and the policies and procedures contained herein supersede any and all prior
+practices, oral or written representations, or statements regarding the terms and conditions of
+your employment with [Company Name]. By distributing this handbook, [Company Name]
+expressly revokes any and all previous policies and procedures which are inconsistent with
+those contained herein.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HREHR_AcknowledgementText3</developerName>
+    <name>HREHR_AcknowledgementText3</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

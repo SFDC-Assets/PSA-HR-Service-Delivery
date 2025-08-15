@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGBE_PlanMemberAddress_number_street_apt</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Address (number, street, apt.):</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRGBE_PlanMemberAddress_number_street_apt</developerName>
+    <name>HRGBE_PlanMemberAddress_number_street_apt</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

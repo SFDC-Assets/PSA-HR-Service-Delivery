@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_BestTimeToCall</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>The best time for Service Canada to call you</questionText>
+        <responseValues>Morning
+Afternoon
+Please don&apos;t call, send letters only</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HRCPR_BestTimeToCall</developerName>
+    <name>HRCPR_BestTimeToCall</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

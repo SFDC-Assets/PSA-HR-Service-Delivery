@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_BeneficiaryRelationship</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Have you ever been separated, divorced or in a common-law relationship that ended?</questionText>
+        <responseValues>Yes
+No</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HRCPR_BeneficiaryRelationship</developerName>
+    <name>HRCPR_BeneficiaryRelationship</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

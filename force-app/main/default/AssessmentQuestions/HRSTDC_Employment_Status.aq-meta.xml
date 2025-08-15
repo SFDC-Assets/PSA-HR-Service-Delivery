@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_Employment_Status</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Employment Status</questionText>
+        <responseValues>Full-time
+Part-time
+Term employee greater than 6 months</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HRSTDC_Employment_Status</developerName>
+    <name>HRSTDC_Employment_Status</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

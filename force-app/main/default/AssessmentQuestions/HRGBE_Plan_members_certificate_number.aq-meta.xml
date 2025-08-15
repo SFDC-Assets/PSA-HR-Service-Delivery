@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGBE_Plan_members_certificate_number</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Plan member&apos;s certificate number</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRGBE_Plan_members_certificate_number</developerName>
+    <name>HRGBE_Plan_members_certificate_number</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

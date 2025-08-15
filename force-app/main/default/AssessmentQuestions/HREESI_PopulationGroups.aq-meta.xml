@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HREESI_PopulationGroups</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>6. Select the population group(s) you identify with.</questionText>
+        <responseValues>Arab
+Black
+Chinese
+Filipino
+Japanese
+Korean
+Latin American
+South Asian (e.g., East Indian, Pakistani, Sri Lankan, etc.)
+Southeast Asian (including Vietnamese, Cambodian, Laotian, Thai, etc.)
+West Asian (e.g. Iranian, Afghan, etc.)
+White
+Population group not listed above.
+I prefer not to answer</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Multiselect</dataType>
+    <developerName>HREESI_PopulationGroups</developerName>
+    <name>HREESI_PopulationGroups</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

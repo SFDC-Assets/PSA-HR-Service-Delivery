@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGBE_HaveDependentsOtherPlans</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Do you or your dependents (spouse and/or children) have benefit coverage under another benefits plan?</questionText>
+        <responseValues>Yes
+No</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HRGBE_HaveDependentsOtherPlans</developerName>
+    <name>HRGBE_HaveDependentsOtherPlans</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

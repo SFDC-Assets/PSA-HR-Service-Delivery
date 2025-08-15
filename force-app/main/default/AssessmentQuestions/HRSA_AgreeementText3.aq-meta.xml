@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSA_AgreeementText3</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>A. Employee will hold the Confidential Information received from [Company Name] in strict
+confidence and will exercise a reasonable degree of care to prevent disclosure to others</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSA_AgreeementText3</developerName>
+    <name>HRSA_AgreeementText3</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

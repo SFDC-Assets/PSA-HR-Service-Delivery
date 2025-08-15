@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRCPR_LastProvince</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>If you now live outside of Canada, what is the last Canadian province /territory that you lived in?</questionText>
+        <responseValues>Alta.
+B.C.
+Man.
+N.B.
+N.L.
+N.W.T
+N.S.
+Nvt.
+Ont.
+P.E.I.
+Que.
+Sask.
+Y.T.</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HRCPR_LastProvince</developerName>
+    <name>HRCPR_LastProvince</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGBE_ApplyingHealthCare</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>I am applying for Extended Health Care for</questionText>
+        <responseValues>Myself only
+Myself and 1 dependent (child or spouse)
+Myself and 2 or more dependents (spouse and children)
+None, because my spouse has coverage</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>HRGBE_ApplyingHealthCare</developerName>
+    <name>HRGBE_ApplyingHealthCare</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

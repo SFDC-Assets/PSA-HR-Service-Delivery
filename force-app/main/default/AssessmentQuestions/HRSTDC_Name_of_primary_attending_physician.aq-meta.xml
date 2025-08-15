@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_Name_of_primary_attending_physician</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Name of primary attending physician / health care professional</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRSTDC_Name_of_primary_attending_physician</developerName>
+    <name>HRSTDC_Name_of_primary_attending_physician</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

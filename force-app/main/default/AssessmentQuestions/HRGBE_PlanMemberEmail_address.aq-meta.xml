@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRGBE_PlanMemberEmail_address</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Email address</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Email</dataType>
+    <developerName>HRGBE_PlanMemberEmail_address</developerName>
+    <name>HRGBE_PlanMemberEmail_address</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

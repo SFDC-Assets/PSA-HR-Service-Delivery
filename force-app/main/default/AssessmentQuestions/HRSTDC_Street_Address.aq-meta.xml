@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_Street_Address</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Street Address</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Text</dataType>
+    <developerName>HRSTDC_Street_Address</developerName>
+    <name>HRSTDC_Street_Address</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

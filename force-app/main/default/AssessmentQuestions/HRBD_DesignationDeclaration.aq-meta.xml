@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRBD_DesignationDeclaration</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>I hereby designate the person(s) named below as beneficiary(ies) for the following benefit plans,
+revoking any previous beneficiary designation.</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRBD_DesignationDeclaration</developerName>
+    <name>HRBD_DesignationDeclaration</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

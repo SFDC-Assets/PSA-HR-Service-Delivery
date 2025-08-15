@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRBD_Todays_date</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Today&apos;s date</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Date</dataType>
+    <developerName>HRBD_Todays_date</developerName>
+    <name>HRBD_Todays_date</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

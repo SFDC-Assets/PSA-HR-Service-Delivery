@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSTDC_BenefitApplyText</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>Have you applied for or are you receiving any of the following:</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSTDC_BenefitApplyText</developerName>
+    <name>HRSTDC_BenefitApplyText</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

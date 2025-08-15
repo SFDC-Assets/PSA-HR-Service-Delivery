@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>HRSA_AgreeementText6</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>D. Employee will, upon request or upon termination of his/her relationship with [Company
+Name], deliver to [Company Name] any drawings, notes, documents, equipment, and
+materials received from [Company Name] or originating from employment with
+[Company Name].</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>HRSA_AgreeementText6</developerName>
+    <name>HRSA_AgreeementText6</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>
