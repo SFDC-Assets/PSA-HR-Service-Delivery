@@ -25,7 +25,6 @@ This Accelerator includes the following assets:
   * Over 400 Assessment Questions used in HR processes
 
 * **OmniScripts** located in the /main/default/omniscripts/ folder
-  * Benefits Payroll Deduction
   * Confidentiality Agreement
   * Direct Deposit Enrollment
   * Employee Emergency Contact
