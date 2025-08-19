@@ -1,17 +1,8 @@
-![Public Sector Accelerators logo](/docs/Logo_GPSAccelerators_v01.png)
 
 # HR Service Delivery
 
-[TODO. Show overview of the Accelerator. This should match the approved content used on the Accelerator listing.]
-
-Accelerator Listing: [TBD](https://gpsaccelerators.developer.salesforce.com/hr-service-delivery) (tbd once published)
-
-
 ## Description
-
 Salesforce HR Service Delivery Accelerators provide prebuilt samples to streamline complex processes, such as onboarding, offboarding or promotions.  It uses digital guided processes and proactive prompts to provide self service via web and agentic channels.
-
-
 
 ## Key Assets
 
@@ -23,14 +14,17 @@ This Accelerator includes the following assets:
   * Off-Boarding Checklist
   * Cross Boarding Checklist
   * Involuntary Termination Checklist
+
 * **Apex Classes**
   * AgentForceOmniscriptHandler
   * AgentForceOmniscriptHandlerTest
   * AgentForceSaveDiscoveryFramework
   * AgentForceSaveDiscoveryFrameworkTest
+
 * **Assessment Questions** located in the /main/default/AssessmentQuestions/ folder
   * Over 400 Assessment Questions used in HR processes
-* **OmniScripts** (x2) located in the /main/default/omniscripts/ folder
+
+* **OmniScripts** located in the /main/default/omniscripts/ folder
   * Beneficiary Designation
   * Benefits Payroll Deduction
   * Canada Pension Retirement
@@ -45,6 +39,7 @@ This Accelerator includes the following assets:
   * Performance Appraisal
   * Short Term Disability Claim
   * Solemn Affirmation
+
 * **AgentForce Topics** located in /main/default/genAiPlugins/ folder 
   * Beneficiary Designation
   * Benefits Payroll Deduction
@@ -60,7 +55,9 @@ This Accelerator includes the following assets:
   * Performance Appraisal
   * Short Term Disability Claim
   * Solemn Affirmation
+
 * **Permission Sets and Permission Set Groups** to assign to users
+
 * **Service Processes** located in /main/default/serviceprocess
   * HRAccelerator_Beneficiary_Designation
   * HRAccelerator_Benefits_Payroll_Deduction
@@ -97,7 +94,6 @@ In general, users of this solution are recommended to have Public Sector Solutio
   - Omni Process Transient Data
   - Omni UI Card
 - Go to Setup -> Service Process Definition Settings and ensure that the New Service Process Definition Sync and Existing Service Processes Definition Sync are both Disabled before installing the unlocked packages
-
 
 ## Installation
 - Using the Salesforce CLI, deploy the objects under the force-app/main/default in the following order:
@@ -182,15 +178,13 @@ A: These examples are meant to be used to provide HR self service, but they do n
 
 ## Terms of Use
 
-[Required. Cleared terms of use.  This must match the approved content used on the Accelerator listing.]
-
-Thank you for using Global Public Sector (GPS) Accelerators.  Accelerators are provided by Salesforce.com, Inc., located at 1 Market Street, San Francisco, CA 94105, United States.
+ Accelerators are provided by Salesforce.com, Inc., located at 1 Market Street, San Francisco, CA 94105, United States.
 
 By using this site and these accelerators, you are agreeing to these terms. Please read them carefully.
 
 Accelerators are not supported by Salesforce, they are supplied as-is, and are meant to be a starting point for your organization. Salesforce is not liable for the use of accelerators.
 
-For more about the Accelerator program, visit: [https://gpsaccelerators.developer.salesforce.com/](https://gpsaccelerators.developer.salesforce.com/)
+
 
 
 
