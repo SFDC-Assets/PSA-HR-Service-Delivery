@@ -25,17 +25,12 @@ This Accelerator includes the following assets:
   * Over 400 Assessment Questions used in HR processes
 
 * **OmniScripts** located in the /main/default/omniscripts/ folder
-  * Beneficiary Designation
   * Benefits Payroll Deduction
-  * Canada Pension Retirement
   * Confidentiality Agreement
   * Direct Deposit Enrollment
   * Employee Emergency Contact
   * Employee Handbook Receipt
   * Employment Equity Self Identify
-  * Extended Health Care Claim
-  * Group Benefits Enrollment
-  * Group Benefit Beneficiary
   * Performance Appraisal
   * Short Term Disability Claim
   * Solemn Affirmation
