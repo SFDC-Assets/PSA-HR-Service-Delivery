@@ -184,7 +184,7 @@
         <actionPlanTemplateItemValue>
             <itemEntityType>Task</itemEntityType>
             <name>Subject</name>
-            <valueLiteral>Benefits Enrolment Updated</valueLiteral>
+            <valueLiteral>Benefits Enrollment Updated</valueLiteral>
         </actionPlanTemplateItemValue>
         <actionPlanTemplateItemValue>
             <itemEntityType>Task</itemEntityType>
@@ -199,7 +199,7 @@
         <actionPlanTemplateItemValue>
             <itemEntityType>Task</itemEntityType>
             <name>Description</name>
-            <valueLiteral>Close out benefits enrolment.</valueLiteral>
+            <valueLiteral>Close out benefits enrollment.</valueLiteral>
         </actionPlanTemplateItemValue>
         <actionPlanTemplateItemValue>
             <itemEntityType>Task</itemEntityType>
@@ -213,8 +213,8 @@
         </actionPlanTemplateItemValue>
         <isRequired>true</isRequired>
         <itemEntityType>Task</itemEntityType>
-        <name>Benefits Enrolment Updated</name>
-        <uniqueName>Benefits_Enrolment_Updated_b1cbe9bd_73b9_11f0_b1e8_93bbd9b49d4c</uniqueName>
+        <name>Benefits Enrollment Updated</name>
+        <uniqueName>Benefits_Enrollment_Updated_b1cbe9bd_73b9_11f0_b1e8_93bbd9b49d4c</uniqueName>
     </actionPlanTemplateItem>
     <isAdHocItemCreationEnabled>true</isAdHocItemCreationEnabled>
     <name>Voluntary Off-boarding Checklist</name>
