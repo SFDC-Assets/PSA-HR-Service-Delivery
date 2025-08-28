@@ -148,7 +148,7 @@
         <actionPlanTemplateItemValue>
             <itemEntityType>Task</itemEntityType>
             <name>Subject</name>
-            <valueLiteral>Benefits Enrolment</valueLiteral>
+            <valueLiteral>Benefits Enrollment</valueLiteral>
         </actionPlanTemplateItemValue>
         <actionPlanTemplateItemValue>
             <itemEntityType>Task</itemEntityType>
@@ -163,7 +163,7 @@
         <actionPlanTemplateItemValue>
             <itemEntityType>Task</itemEntityType>
             <name>Description</name>
-            <valueLiteral>Please complete your benefits enrolment including health, dental, vision and more.</valueLiteral>
+            <valueLiteral>Please complete your benefits enrollment including health, dental, vision and more.</valueLiteral>
         </actionPlanTemplateItemValue>
         <actionPlanTemplateItemValue>
             <itemEntityType>Task</itemEntityType>
@@ -177,8 +177,8 @@
         </actionPlanTemplateItemValue>
         <isRequired>true</isRequired>
         <itemEntityType>Task</itemEntityType>
-        <name>Benefits Enrolment</name>
-        <uniqueName>Benefits_Enrolment_3c97af56_73af_11f0_b1e8_378ee7b5338e</uniqueName>
+        <name>Benefits Enrollment</name>
+        <uniqueName>Benefits_Enrollment_3c97af56_73af_11f0_b1e8_378ee7b5338e</uniqueName>
     </actionPlanTemplateItem>
     <actionPlanTemplateItem>
         <actionPlanTemplateItemValue>
