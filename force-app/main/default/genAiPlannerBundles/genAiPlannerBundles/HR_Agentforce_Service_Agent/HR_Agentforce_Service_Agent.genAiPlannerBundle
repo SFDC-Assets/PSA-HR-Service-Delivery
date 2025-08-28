@@ -21,7 +21,7 @@
         <genAiPluginName>Short_Term_Disability_Claim</genAiPluginName>
     </genAiPlugins>
     <genAiPlugins>
-        <genAiPluginName>Solemn_Affiration</genAiPluginName>
+        <genAiPluginName>Solemn_Affirmation</genAiPluginName>
     </genAiPlugins>
     <masterLabel>Agentforce Service Agent</masterLabel>
     <plannerType>AiCopilot__ReAct</plannerType>
