@@ -14,20 +14,25 @@
     <name>HRAccelerator ConfidentialityAgreement</name>
     <omniProcessElements>
         <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
             <isActive>true</isActive>
             <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
             <level>1.0</level>
-            <name>HRCA_Company_Name_Representative_Name_Title</name>
+            <name>ConfidentialitySignature</name>
             <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
             <propertySetConfig>{
-  &quot;controlWidth&quot; : 6,
-  &quot;label&quot; : &quot;[Company Name] Representative Name/Title&quot;
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Confidentiality Signature&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;hide&quot; : false,
+  &quot;lwcName&quot; : &quot;runtime_industries_assessment__signature&quot;,
+  &quot;designerElementName&quot; : &quot;Signature&quot;,
+  &quot;bStandalone&quot; : false,
+  &quot;customAttributes&quot; : [ ],
+  &quot;componentHeader&quot; : &quot;Signature&quot;
 }</propertySetConfig>
             <sequenceNumber>17.0</sequenceNumber>
-            <type>Text</type>
-            <uniqueIndex>HRCA_Company_Name_Representative_Name_Title</uniqueIndex>
+            <type>Custom Lightning Web Component</type>
         </childElements>
         <childElements>
             <designerCustomizationType>Discovery Framework</designerCustomizationType>
@@ -35,15 +40,21 @@
             <isActive>true</isActive>
             <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
             <level>1.0</level>
-            <name>HRCA_Company_Name_Representative_Signature</name>
+            <name>HR_Provide_Signature</name>
             <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
             <propertySetConfig>{
-  &quot;controlWidth&quot; : 6,
-  &quot;label&quot; : &quot;[Company Name] Representative Signature&quot;
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Please provide your signature&quot;,
+  &quot;text&quot; : &quot;Please provide your signature&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
 }</propertySetConfig>
-            <sequenceNumber>19.0</sequenceNumber>
-            <type>Text</type>
-            <uniqueIndex>HRCA_Company_Name_Representative_Signature</uniqueIndex>
+            <sequenceNumber>16.0</sequenceNumber>
+            <type>Text Block</type>
+            <uniqueIndex>HR_Provide_Signature</uniqueIndex>
         </childElements>
         <childElements>
             <designerCustomizationType>Discovery Framework</designerCustomizationType>
@@ -72,38 +83,6 @@
             <isActive>true</isActive>
             <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
             <level>1.0</level>
-            <name>HRCA_Employee</name>
-            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
-            <propertySetConfig>{
-  &quot;controlWidth&quot; : 6,
-  &quot;label&quot; : &quot;Employee&quot;
-}</propertySetConfig>
-            <sequenceNumber>16.0</sequenceNumber>
-            <type>Text</type>
-            <uniqueIndex>HRCA_Employee</uniqueIndex>
-        </childElements>
-        <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
-            <isActive>true</isActive>
-            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-            <level>1.0</level>
-            <name>HRCA_Employee_Signature</name>
-            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
-            <propertySetConfig>{
-  &quot;controlWidth&quot; : 6,
-  &quot;label&quot; : &quot;Employee Signature&quot;
-}</propertySetConfig>
-            <sequenceNumber>18.0</sequenceNumber>
-            <type>Text</type>
-            <uniqueIndex>HRCA_Employee_Signature</uniqueIndex>
-        </childElements>
-        <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
-            <isActive>true</isActive>
-            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-            <level>1.0</level>
             <name>HRCA_Name</name>
             <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
             <propertySetConfig>{
@@ -113,27 +92,6 @@
             <sequenceNumber>15.0</sequenceNumber>
             <type>Text</type>
             <uniqueIndex>HRCA_Name</uniqueIndex>
-        </childElements>
-        <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
-            <isActive>true</isActive>
-            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-            <level>1.0</level>
-            <name>HRCA_RepresentativeSignatureDate</name>
-            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
-            <propertySetConfig>{
-  &quot;controlWidth&quot; : 6,
-  &quot;label&quot; : &quot;Date&quot;,
-  &quot;dateType&quot; : &quot;string&quot;,
-  &quot;modelDateFormat&quot; : &quot;yyyy-MM-dd&quot;,
-  &quot;dateFormat&quot; : &quot;MM-dd-yyyy&quot;,
-  &quot;minDate&quot; : &quot;&quot;,
-  &quot;maxDate&quot; : &quot;&quot;
-}</propertySetConfig>
-            <sequenceNumber>20.0</sequenceNumber>
-            <type>Date</type>
-            <uniqueIndex>HRCA_RepresentativeSignatureDate</uniqueIndex>
         </childElements>
         <childElements>
             <designerCustomizationType>Discovery Framework</designerCustomizationType>

@@ -120,6 +120,49 @@
     </omniProcessElements>
     <omniProcessElements>
         <childElements>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>ExtendedHealthCareClaimSignature</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Extended Health Care Claim Signature&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;hide&quot; : false,
+  &quot;lwcName&quot; : &quot;runtime_industries_assessment__signature&quot;,
+  &quot;designerElementName&quot; : &quot;Signature&quot;,
+  &quot;bStandalone&quot; : false,
+  &quot;customAttributes&quot; : [ ],
+  &quot;componentHeader&quot; : &quot;Signature&quot;
+}</propertySetConfig>
+            <sequenceNumber>3.0</sequenceNumber>
+            <type>Custom Lightning Web Component</type>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HR_Provide_Signature</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Please provide your signature&quot;,
+  &quot;text&quot; : &quot;Please provide your signature&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>2.0</sequenceNumber>
+            <type>Text Block</type>
+            <uniqueIndex>HR_Provide_Signature</uniqueIndex>
+        </childElements>
+        <childElements>
             <designerCustomizationType>Discovery Framework</designerCustomizationType>
             <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
             <isActive>true</isActive>
@@ -134,43 +177,6 @@
             <sequenceNumber>0.0</sequenceNumber>
             <type>Email</type>
             <uniqueIndex>HREHCC_Email_address</uniqueIndex>
-        </childElements>
-        <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
-            <isActive>true</isActive>
-            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-            <level>1.0</level>
-            <name>HREHCC_PlanMemberDate_signed</name>
-            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
-            <propertySetConfig>{
-  &quot;controlWidth&quot; : 3,
-  &quot;label&quot; : &quot;Date signed&quot;,
-  &quot;dateType&quot; : &quot;string&quot;,
-  &quot;modelDateFormat&quot; : &quot;yyyy-MM-dd&quot;,
-  &quot;dateFormat&quot; : &quot;MM-dd-yyyy&quot;,
-  &quot;minDate&quot; : &quot;&quot;,
-  &quot;maxDate&quot; : &quot;&quot;
-}</propertySetConfig>
-            <sequenceNumber>3.0</sequenceNumber>
-            <type>Date</type>
-            <uniqueIndex>HREHCC_PlanMemberDate_signed</uniqueIndex>
-        </childElements>
-        <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
-            <isActive>true</isActive>
-            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-            <level>1.0</level>
-            <name>HREHCC_Signature_of_plan_member</name>
-            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
-            <propertySetConfig>{
-  &quot;controlWidth&quot; : 9,
-  &quot;label&quot; : &quot;Signature of plan member&quot;
-}</propertySetConfig>
-            <sequenceNumber>2.0</sequenceNumber>
-            <type>Text</type>
-            <uniqueIndex>HREHCC_Signature_of_plan_member</uniqueIndex>
         </childElements>
         <childElements>
             <designerCustomizationType>Discovery Framework</designerCustomizationType>
@@ -1176,43 +1182,6 @@
             <sequenceNumber>0.0</sequenceNumber>
             <type>Radio</type>
             <uniqueIndex>HREHCC_ContactLensesPrescribed</uniqueIndex>
-        </childElements>
-        <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
-            <isActive>true</isActive>
-            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-            <level>1.0</level>
-            <name>HREHCC_Date_signed</name>
-            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
-            <propertySetConfig>{
-  &quot;controlWidth&quot; : 3,
-  &quot;label&quot; : &quot;Date signed&quot;,
-  &quot;dateType&quot; : &quot;string&quot;,
-  &quot;modelDateFormat&quot; : &quot;yyyy-MM-dd&quot;,
-  &quot;dateFormat&quot; : &quot;MM-dd-yyyy&quot;,
-  &quot;minDate&quot; : &quot;&quot;,
-  &quot;maxDate&quot; : &quot;&quot;
-}</propertySetConfig>
-            <sequenceNumber>4.0</sequenceNumber>
-            <type>Date</type>
-            <uniqueIndex>HREHCC_Date_signed</uniqueIndex>
-        </childElements>
-        <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
-            <isActive>true</isActive>
-            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-            <level>1.0</level>
-            <name>HREHCC_Signature_of_supplier</name>
-            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
-            <propertySetConfig>{
-  &quot;controlWidth&quot; : 9,
-  &quot;label&quot; : &quot;Signature of supplier:&quot;
-}</propertySetConfig>
-            <sequenceNumber>3.0</sequenceNumber>
-            <type>Text</type>
-            <uniqueIndex>HREHCC_Signature_of_supplier</uniqueIndex>
         </childElements>
         <childElements>
             <designerCustomizationType>Discovery Framework</designerCustomizationType>

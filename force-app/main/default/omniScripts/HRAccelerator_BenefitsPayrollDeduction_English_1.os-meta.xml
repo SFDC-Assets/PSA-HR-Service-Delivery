@@ -14,6 +14,49 @@
     <name>HRAccelerator BenefitsPayrollDeduction</name>
     <omniProcessElements>
         <childElements>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>AddPayrollSignature</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Add Payroll Signature&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;hide&quot; : false,
+  &quot;lwcName&quot; : &quot;runtime_industries_assessment__signature&quot;,
+  &quot;designerElementName&quot; : &quot;Signature&quot;,
+  &quot;bStandalone&quot; : false,
+  &quot;customAttributes&quot; : [ ],
+  &quot;componentHeader&quot; : &quot;Signature&quot;
+}</propertySetConfig>
+            <sequenceNumber>6.0</sequenceNumber>
+            <type>Custom Lightning Web Component</type>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HR_Provide_Signature</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Please provide your signature&quot;,
+  &quot;text&quot; : &quot;Please provide your signature&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>5.0</sequenceNumber>
+            <type>Text Block</type>
+            <uniqueIndex>HR_Provide_Signature</uniqueIndex>
+        </childElements>
+        <childElements>
             <designerCustomizationType>Discovery Framework</designerCustomizationType>
             <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
             <isActive>true</isActive>
@@ -74,27 +117,6 @@
             <isActive>true</isActive>
             <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
             <level>1.0</level>
-            <name>HRBPD_Add_Date</name>
-            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
-            <propertySetConfig>{
-  &quot;controlWidth&quot; : 3,
-  &quot;label&quot; : &quot;Date&quot;,
-  &quot;dateType&quot; : &quot;string&quot;,
-  &quot;modelDateFormat&quot; : &quot;yyyy-MM-dd&quot;,
-  &quot;dateFormat&quot; : &quot;MM-dd-yyyy&quot;,
-  &quot;minDate&quot; : &quot;&quot;,
-  &quot;maxDate&quot; : &quot;&quot;
-}</propertySetConfig>
-            <sequenceNumber>6.0</sequenceNumber>
-            <type>Date</type>
-            <uniqueIndex>HRBPD_Add_Date</uniqueIndex>
-        </childElements>
-        <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
-            <isActive>true</isActive>
-            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-            <level>1.0</level>
             <name>HRBPD_Add_Effective_date</name>
             <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
             <propertySetConfig>{
@@ -109,22 +131,6 @@
             <sequenceNumber>3.0</sequenceNumber>
             <type>Date</type>
             <uniqueIndex>HRBPD_Add_Effective_date</uniqueIndex>
-        </childElements>
-        <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
-            <isActive>true</isActive>
-            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-            <level>1.0</level>
-            <name>HRBPD_Add_Employee_signature</name>
-            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
-            <propertySetConfig>{
-  &quot;controlWidth&quot; : 9,
-  &quot;label&quot; : &quot;Employee signature&quot;
-}</propertySetConfig>
-            <sequenceNumber>5.0</sequenceNumber>
-            <type>Text</type>
-            <uniqueIndex>HRBPD_Add_Employee_signature</uniqueIndex>
         </childElements>
         <childElements>
             <designerCustomizationType>Discovery Framework</designerCustomizationType>
@@ -207,6 +213,49 @@
     </omniProcessElements>
     <omniProcessElements>
         <childElements>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>CancelPayrollSignature</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Cancel Payroll Signature&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;hide&quot; : false,
+  &quot;lwcName&quot; : &quot;runtime_industries_assessment__signature&quot;,
+  &quot;designerElementName&quot; : &quot;Signature&quot;,
+  &quot;bStandalone&quot; : false,
+  &quot;customAttributes&quot; : [ ],
+  &quot;componentHeader&quot; : &quot;Signature&quot;
+}</propertySetConfig>
+            <sequenceNumber>6.0</sequenceNumber>
+            <type>Custom Lightning Web Component</type>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HR_Provide_Signature3</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Please provide your signature&quot;,
+  &quot;text&quot; : &quot;Please provide your signature&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>5.0</sequenceNumber>
+            <type>Text Block</type>
+            <uniqueIndex>HR_Provide_Signature3</uniqueIndex>
+        </childElements>
+        <childElements>
             <designerCustomizationType>Discovery Framework</designerCustomizationType>
             <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
             <isActive>true</isActive>
@@ -250,27 +299,6 @@
             <isActive>true</isActive>
             <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
             <level>1.0</level>
-            <name>HRBPD_Cancel_Date</name>
-            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
-            <propertySetConfig>{
-  &quot;controlWidth&quot; : 3,
-  &quot;label&quot; : &quot;Date&quot;,
-  &quot;dateType&quot; : &quot;string&quot;,
-  &quot;modelDateFormat&quot; : &quot;yyyy-MM-dd&quot;,
-  &quot;dateFormat&quot; : &quot;MM-dd-yyyy&quot;,
-  &quot;minDate&quot; : &quot;&quot;,
-  &quot;maxDate&quot; : &quot;&quot;
-}</propertySetConfig>
-            <sequenceNumber>6.0</sequenceNumber>
-            <type>Date</type>
-            <uniqueIndex>HRBPD_Cancel_Date</uniqueIndex>
-        </childElements>
-        <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
-            <isActive>true</isActive>
-            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-            <level>1.0</level>
             <name>HRBPD_Cancel_Effective_date</name>
             <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
             <propertySetConfig>{
@@ -285,22 +313,6 @@
             <sequenceNumber>3.0</sequenceNumber>
             <type>Date</type>
             <uniqueIndex>HRBPD_Cancel_Effective_date</uniqueIndex>
-        </childElements>
-        <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
-            <isActive>true</isActive>
-            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-            <level>1.0</level>
-            <name>HRBPD_Cancel_Employee_signature</name>
-            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
-            <propertySetConfig>{
-  &quot;controlWidth&quot; : 9,
-  &quot;label&quot; : &quot;Employee signature&quot;
-}</propertySetConfig>
-            <sequenceNumber>5.0</sequenceNumber>
-            <type>Text</type>
-            <uniqueIndex>HRBPD_Cancel_Employee_signature</uniqueIndex>
         </childElements>
         <childElements>
             <designerCustomizationType>Discovery Framework</designerCustomizationType>
@@ -399,6 +411,49 @@
     </omniProcessElements>
     <omniProcessElements>
         <childElements>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>ChangePayrollSignature</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Change Payroll Signature&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;hide&quot; : false,
+  &quot;lwcName&quot; : &quot;runtime_industries_assessment__signature&quot;,
+  &quot;designerElementName&quot; : &quot;Signature&quot;,
+  &quot;bStandalone&quot; : false,
+  &quot;customAttributes&quot; : [ ],
+  &quot;componentHeader&quot; : &quot;Signature&quot;
+}</propertySetConfig>
+            <sequenceNumber>6.0</sequenceNumber>
+            <type>Custom Lightning Web Component</type>
+        </childElements>
+        <childElements>
+            <designerCustomizationType>Discovery Framework</designerCustomizationType>
+            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
+            <isActive>true</isActive>
+            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+            <level>1.0</level>
+            <name>HR_Provide_Signature2</name>
+            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
+            <propertySetConfig>{
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Please provide your signature&quot;,
+  &quot;text&quot; : &quot;Please provide your signature&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
+}</propertySetConfig>
+            <sequenceNumber>5.0</sequenceNumber>
+            <type>Text Block</type>
+            <uniqueIndex>HR_Provide_Signature2</uniqueIndex>
+        </childElements>
+        <childElements>
             <designerCustomizationType>Discovery Framework</designerCustomizationType>
             <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
             <isActive>true</isActive>
@@ -442,27 +497,6 @@
             <isActive>true</isActive>
             <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
             <level>1.0</level>
-            <name>HRBPD_Change_Date</name>
-            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
-            <propertySetConfig>{
-  &quot;controlWidth&quot; : 3,
-  &quot;label&quot; : &quot;Date&quot;,
-  &quot;dateType&quot; : &quot;string&quot;,
-  &quot;modelDateFormat&quot; : &quot;yyyy-MM-dd&quot;,
-  &quot;dateFormat&quot; : &quot;MM-dd-yyyy&quot;,
-  &quot;minDate&quot; : &quot;&quot;,
-  &quot;maxDate&quot; : &quot;&quot;
-}</propertySetConfig>
-            <sequenceNumber>6.0</sequenceNumber>
-            <type>Date</type>
-            <uniqueIndex>HRBPD_Change_Date</uniqueIndex>
-        </childElements>
-        <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
-            <isActive>true</isActive>
-            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-            <level>1.0</level>
             <name>HRBPD_Change_Effective_date</name>
             <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
             <propertySetConfig>{
@@ -477,22 +511,6 @@
             <sequenceNumber>3.0</sequenceNumber>
             <type>Date</type>
             <uniqueIndex>HRBPD_Change_Effective_date</uniqueIndex>
-        </childElements>
-        <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
-            <isActive>true</isActive>
-            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-            <level>1.0</level>
-            <name>HRBPD_Change_Employee_signature</name>
-            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
-            <propertySetConfig>{
-  &quot;controlWidth&quot; : 9,
-  &quot;label&quot; : &quot;Employee signature&quot;
-}</propertySetConfig>
-            <sequenceNumber>5.0</sequenceNumber>
-            <type>Text</type>
-            <uniqueIndex>HRBPD_Change_Employee_signature</uniqueIndex>
         </childElements>
         <childElements>
             <designerCustomizationType>Discovery Framework</designerCustomizationType>

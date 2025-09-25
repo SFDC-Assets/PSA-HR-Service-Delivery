@@ -1213,36 +1213,42 @@
             <isActive>true</isActive>
             <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
             <level>1.0</level>
-            <name>HRGRRSP_Signature_of_annuitant</name>
+            <name>HR_Provide_Signature</name>
             <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
             <propertySetConfig>{
-  &quot;controlWidth&quot; : 9,
-  &quot;label&quot; : &quot;Signature of annuitant&quot;
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Please provide your signature&quot;,
+  &quot;text&quot; : &quot;Please provide your signature&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
 }</propertySetConfig>
             <sequenceNumber>0.0</sequenceNumber>
-            <type>Text</type>
-            <uniqueIndex>HRGRRSP_Signature_of_annuitant</uniqueIndex>
+            <type>Text Block</type>
+            <uniqueIndex>HR_Provide_Signature</uniqueIndex>
         </childElements>
         <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
             <isActive>true</isActive>
             <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
             <level>1.0</level>
-            <name>HRGRRSP_SignatureDate</name>
+            <name>RRSPSignature</name>
             <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
             <propertySetConfig>{
-  &quot;controlWidth&quot; : 3,
-  &quot;label&quot; : &quot;Date&quot;,
-  &quot;dateType&quot; : &quot;string&quot;,
-  &quot;modelDateFormat&quot; : &quot;yyyy-MM-dd&quot;,
-  &quot;dateFormat&quot; : &quot;MM-dd-yyyy&quot;,
-  &quot;minDate&quot; : &quot;&quot;,
-  &quot;maxDate&quot; : &quot;&quot;
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;RRSP Signature&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;hide&quot; : false,
+  &quot;lwcName&quot; : &quot;runtime_industries_assessment__signature&quot;,
+  &quot;designerElementName&quot; : &quot;Signature&quot;,
+  &quot;bStandalone&quot; : false,
+  &quot;customAttributes&quot; : [ ],
+  &quot;componentHeader&quot; : &quot;Signature&quot;
 }</propertySetConfig>
             <sequenceNumber>1.0</sequenceNumber>
-            <type>Date</type>
-            <uniqueIndex>HRGRRSP_SignatureDate</uniqueIndex>
+            <type>Custom Lightning Web Component</type>
         </childElements>
         <designerCustomizationType>Discovery Framework</designerCustomizationType>
         <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>

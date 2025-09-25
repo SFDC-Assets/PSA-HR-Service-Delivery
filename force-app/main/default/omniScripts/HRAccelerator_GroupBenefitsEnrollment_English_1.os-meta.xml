@@ -187,25 +187,25 @@
     </omniProcessElements>
     <omniProcessElements>
         <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
             <isActive>true</isActive>
             <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
             <level>1.0</level>
-            <name>HRGBE_Date_signed</name>
+            <name>GroupBenefitsEnrollmentSignature</name>
             <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
             <propertySetConfig>{
-  &quot;controlWidth&quot; : 3,
-  &quot;label&quot; : &quot;Date signed&quot;,
-  &quot;dateType&quot; : &quot;string&quot;,
-  &quot;modelDateFormat&quot; : &quot;yyyy-MM-dd&quot;,
-  &quot;dateFormat&quot; : &quot;MM-dd-yyyy&quot;,
-  &quot;minDate&quot; : &quot;&quot;,
-  &quot;maxDate&quot; : &quot;&quot;
+  &quot;controlWidth&quot; : 12,
+  &quot;label&quot; : &quot;Group Benefits Enrollment Signature&quot;,
+  &quot;show&quot; : null,
+  &quot;conditionType&quot; : &quot;Hide if False&quot;,
+  &quot;hide&quot; : false,
+  &quot;lwcName&quot; : &quot;runtime_industries_assessment__signature&quot;,
+  &quot;designerElementName&quot; : &quot;Signature&quot;,
+  &quot;bStandalone&quot; : false,
+  &quot;customAttributes&quot; : [ ],
+  &quot;componentHeader&quot; : &quot;Signature&quot;
 }</propertySetConfig>
             <sequenceNumber>1.0</sequenceNumber>
-            <type>Date</type>
-            <uniqueIndex>HRGBE_Date_signed</uniqueIndex>
+            <type>Custom Lightning Web Component</type>
         </childElements>
         <childElements>
             <designerCustomizationType>Discovery Framework</designerCustomizationType>
@@ -213,15 +213,21 @@
             <isActive>true</isActive>
             <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
             <level>1.0</level>
-            <name>HRGBE_Signature_of_plan_member</name>
+            <name>HR_Provide_Signature</name>
             <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
             <propertySetConfig>{
-  &quot;controlWidth&quot; : 9,
-  &quot;label&quot; : &quot;Signature of plan member&quot;
+  &quot;controlWidth&quot; : 12.0,
+  &quot;label&quot; : &quot;Please provide your signature&quot;,
+  &quot;text&quot; : &quot;Please provide your signature&quot;,
+  &quot;show&quot; : null,
+  &quot;dataJSON&quot; : false,
+  &quot;HTMLTemplateId&quot; : &quot;&quot;,
+  &quot;textKey&quot; : &quot;&quot;,
+  &quot;sanitize&quot; : false
 }</propertySetConfig>
             <sequenceNumber>0.0</sequenceNumber>
-            <type>Text</type>
-            <uniqueIndex>HRGBE_Signature_of_plan_member</uniqueIndex>
+            <type>Text Block</type>
+            <uniqueIndex>HR_Provide_Signature</uniqueIndex>
         </childElements>
         <designerCustomizationType>Discovery Framework</designerCustomizationType>
         <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
@@ -1438,7 +1444,7 @@
     &quot;source&quot; : &quot;&quot;
   }
 }</propertySetConfig>
-            <sequenceNumber>18.0</sequenceNumber>
+            <sequenceNumber>16.0</sequenceNumber>
             <type>Radio</type>
             <uniqueIndex>HRGBE_evidence_of_insurability_required</uniqueIndex>
         </childElements>
@@ -1518,22 +1524,6 @@
             <isActive>true</isActive>
             <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
             <level>1.0</level>
-            <name>HRGBE_Plan_administrator_signature</name>
-            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
-            <propertySetConfig>{
-  &quot;controlWidth&quot; : 9,
-  &quot;label&quot; : &quot;Plan administrator signature&quot;
-}</propertySetConfig>
-            <sequenceNumber>15.0</sequenceNumber>
-            <type>Text</type>
-            <uniqueIndex>HRGBE_Plan_administrator_signature</uniqueIndex>
-        </childElements>
-        <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
-            <isActive>true</isActive>
-            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-            <level>1.0</level>
             <name>HRGBE_Plan_contract_number</name>
             <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
             <propertySetConfig>{
@@ -1582,27 +1572,6 @@
             <isActive>true</isActive>
             <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
             <level>1.0</level>
-            <name>HRGBE_PlanAdministratorSignatureDate</name>
-            <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
-            <propertySetConfig>{
-  &quot;controlWidth&quot; : 3,
-  &quot;label&quot; : &quot;Date&quot;,
-  &quot;dateType&quot; : &quot;string&quot;,
-  &quot;modelDateFormat&quot; : &quot;yyyy-MM-dd&quot;,
-  &quot;dateFormat&quot; : &quot;MM-dd-yyyy&quot;,
-  &quot;minDate&quot; : &quot;&quot;,
-  &quot;maxDate&quot; : &quot;&quot;
-}</propertySetConfig>
-            <sequenceNumber>16.0</sequenceNumber>
-            <type>Date</type>
-            <uniqueIndex>HRGBE_PlanAdministratorSignatureDate</uniqueIndex>
-        </childElements>
-        <childElements>
-            <designerCustomizationType>Discovery Framework</designerCustomizationType>
-            <discoveryFrameworkUsageType>0</discoveryFrameworkUsageType>
-            <isActive>true</isActive>
-            <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-            <level>1.0</level>
             <name>HRGBE_Registered_under_the_Canadian_Indian_Act</name>
             <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
             <propertySetConfig>{
@@ -1627,7 +1596,7 @@
     &quot;source&quot; : &quot;&quot;
   }
 }</propertySetConfig>
-            <sequenceNumber>17.0</sequenceNumber>
+            <sequenceNumber>15.0</sequenceNumber>
             <type>Radio</type>
             <uniqueIndex>HRGBE_Registered_under_the_Canadian_Indian_Act</uniqueIndex>
         </childElements>
