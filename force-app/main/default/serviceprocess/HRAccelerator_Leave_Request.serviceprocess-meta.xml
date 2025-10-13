@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <processLabel>Leave Request</processLabel>
+    <serviceProcessDependencies>
+        <dependencyReference>HRAccelerator_LeaveRequest_English_1</dependencyReference>
+        <processStepName>RequestForm</processStepName>
+        <type>OmniScriptConfig</type>
+    </serviceProcessDependencies>
+    <shouldHideEmptyAttributes>false</shouldHideEmptyAttributes>
+    <usageType>Industry</usageType>
+</ServiceProcess>
