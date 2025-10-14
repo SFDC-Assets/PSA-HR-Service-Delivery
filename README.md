@@ -25,19 +25,8 @@ This Accelerator includes the following assets:
   * Over 400 Assessment Questions used in HR processes
 
 * **OmniScripts** located in the /main/default/omniscripts/ folder
-  * Confidentiality Agreement
-  * Direct Deposit Enrollment
-  * Employee Emergency Contact
-  * Employee Handbook Receipt
-  * Employment Equity Self Identify
-  * Performance Appraisal
-  * Short Term Disability Claim
-  * Solemn Affirmation
-
-* **AgentForce Topics** located in /main/default/genAiPlugins/ folder 
   * Beneficiary Designation
   * Benefits Payroll Deduction
-  * Canada Pension Retirement
   * Confidentiality Agreement
   * Direct Deposit Enrollment
   * Employee Emergency Contact
@@ -45,7 +34,16 @@ This Accelerator includes the following assets:
   * Employment Equity Self Identify
   * Extended Health Care Claim
   * Group Benefits Enrollment
-  * Group Benefit Beneficiary
+  * Leave Request
+  * Performance Appraisal
+  * Short Term Disability Claim
+  * Solemn Affirmation
+
+* **AgentForce Topics** located in /main/default/genAiPlugins/ folder 
+  * Confidentiality Agreement
+  * Direct Deposit Enrollment
+  * Employee Handbook Receipt
+  * Employment Equity Self Identify
   * Performance Appraisal
   * Short Term Disability Claim
   * Solemn Affirmation
@@ -64,6 +62,7 @@ This Accelerator includes the following assets:
   * HRAccelerator_Extended_Health_Care_Claim
   * HRAccelerator_Group_Benefits_Enrollment
   * HRAccelerator_Groups_RRSP_Enrollment
+  * HRAccelerator_Leave_Request
   * HRAccelerator_Performance_Appraisal_Self
   * HRAccelerator_Short_Term_Disability_Claim
   * HRAccelerator_Solemn_Affirmation
